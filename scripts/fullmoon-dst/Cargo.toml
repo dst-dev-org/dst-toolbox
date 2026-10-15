@@ -1,0 +1,16 @@
+[package]
+name = "fullmoon-dst"
+version = "0.4.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+publish = false
+description = "DST Lua 5.1 structural facts, lexical guards and parser probes"
+
+[dependencies]
+full_moon = { version = "=3.0.0", default-features = false }
+serde_json = "=1.0.145"
+sha2 = "=0.10.9"
+
+[[example]]
+name = "parser_probe"
+path = "examples/parser_probe.rs"

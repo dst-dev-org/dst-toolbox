@@ -1,0 +1,1675 @@
+{
+  "format_version": "1.0.0",
+  "kind": "example-bundle",
+  "purpose": "W01 手工参考：装备回调、事件接收对象、外部错误拒绝、注释伪字段与显式失效。",
+  "manifest": {
+    "format_version": "1.0.0",
+    "kind": "manifest",
+    "snapshot": {
+      "id": "dst-steam-25643519",
+      "version": {
+        "scheme": "steam-buildid",
+        "value": "25643519"
+      }
+    },
+    "producer": {
+      "name": "w01-manual-reference",
+      "version": "1.0.0",
+      "mode": "manual-reference",
+      "dialect": "lua51",
+      "parser": null
+    },
+    "sources": [
+      {
+        "id": "dst",
+        "kind": "game-source",
+        "root_hint": "raw/current/scripts",
+        "revision": {
+          "scheme": "steam-buildid",
+          "value": "25643519"
+        },
+        "files": [
+          {
+            "path": "class.lua",
+            "sha256": "eff1a5280260c73c9fc4c8bdff95ae31a35c80f62764749722bfc123f8694454",
+            "encoding": "utf-8"
+          },
+          {
+            "path": "components/equippable.lua",
+            "sha256": "afa5d4d0c26c216a20834bcd844660fbefc45517360e6150076660556fcdcf52",
+            "encoding": "utf-8"
+          }
+        ]
+      },
+      {
+        "id": "lsp-dst",
+        "kind": "annotation-library",
+        "root_hint": null,
+        "revision": {
+          "scheme": "git-commit",
+          "value": "cd9fdce8a88176a8db9190d27189eeb710e2b30d"
+        },
+        "files": [
+          {
+            "path": "scripts/components/members/equippable.lua",
+            "sha256": "b77ed268d7df84bbee55201e4c3ba9db0b100e7216c5d227594b291eab1751b9",
+            "encoding": "utf-8"
+          }
+        ]
+      }
+    ]
+  },
+  "facts": {
+    "format_version": "1.0.0",
+    "kind": "facts",
+    "snapshot_id": "dst-steam-25643519",
+    "primary_file": "components/equippable.lua",
+    "coverage": {
+      "status": "partial",
+      "selection": {
+        "symbols": [
+          "components/equippable.lua#module/class:Equippable",
+          "components/equippable.lua#Equippable/constructor:new",
+          "components/equippable.lua#Equippable/field:equipslot",
+          "components/equippable.lua#Equippable/field:walkspeedmult",
+          "components/equippable.lua#Equippable/field:onequipfn",
+          "components/equippable.lua#module/function:onwalkspeedmult",
+          "components/equippable.lua#Equippable/method:Equip",
+          "components/equippable.lua#Equippable/method:SetOnEquip"
+        ],
+        "record_kinds": [
+          "assignment",
+          "call",
+          "comment",
+          "component_access",
+          "event_emit",
+          "property_callback"
+        ],
+        "description": "人工选择的关键符号与语法观察；不承诺全文或所列方法全部语句覆盖。"
+      },
+      "truncated": false,
+      "diagnostics": [
+        {
+          "code": "MANUAL_REFERENCE_SUBSET",
+          "severity": "info",
+          "message": "W01 手工参考数据，不是 Full Moon 提取输出。",
+          "anchor_id": null
+        }
+      ]
+    },
+    "anchors": [
+      {
+        "id": "equippable:facts:symbol-Equippable",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 832,
+          "line": 25,
+          "column": 1
+        },
+        "end": {
+          "byte": 1672,
+          "line": 54,
+          "column": 1
+        },
+        "sha256": "8adbc57e47348526d4a45afbf7f3ce8a4a4800822c27f47f3354a62e1b2a94f1"
+      },
+      {
+        "id": "equippable:facts:symbol-new",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 832,
+          "line": 25,
+          "column": 1
+        },
+        "end": {
+          "byte": 1513,
+          "line": 47,
+          "column": 1
+        },
+        "sha256": "5877137e2a7e1d9fecffbecf74d35b34ddabaf526f5b675ad23cdcef419df93c"
+      },
+      {
+        "id": "equippable:facts:symbol-equipslot",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 928,
+          "line": 29,
+          "column": 1
+        },
+        "end": {
+          "byte": 966,
+          "line": 30,
+          "column": 1
+        },
+        "sha256": "d961cfc99b7035b8643005f68e6a20fba171bbd204c3a2c44da1581f153f7132"
+      },
+      {
+        "id": "equippable:facts:symbol-walkspeedmult",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 1104,
+          "line": 35,
+          "column": 1
+        },
+        "end": {
+          "byte": 1133,
+          "line": 36,
+          "column": 1
+        },
+        "sha256": "2bf9076bcd2ec40d91ae5cd766b605e6f9fecfb8c0a21c0a0e39ad3aac88b8ba"
+      },
+      {
+        "id": "equippable:facts:symbol-onequipfn",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 966,
+          "line": 30,
+          "column": 1
+        },
+        "end": {
+          "byte": 991,
+          "line": 31,
+          "column": 1
+        },
+        "sha256": "61692086959eb4794f274f2c146bffb8fcf6671957b1fc97532a80c3aefefed6"
+      },
+      {
+        "id": "equippable:facts:symbol-onwalkspeedmult",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 183,
+          "line": 7,
+          "column": 1
+        },
+        "end": {
+          "byte": 513,
+          "line": 14,
+          "column": 1
+        },
+        "sha256": "e972f0ad0cb8dfbabb65913303371e40f117cfb37c1519dd6fad8c6162bba278"
+      },
+      {
+        "id": "equippable:facts:symbol-Equip",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2455,
+          "line": 92,
+          "column": 1
+        },
+        "end": {
+          "byte": 2943,
+          "line": 108,
+          "column": 1
+        },
+        "sha256": "501b3c06d69d3a2381dc308d76d53b2307c0e899d2e9ecd9419370dab34f5b3d"
+      },
+      {
+        "id": "equippable:facts:symbol-SetOnEquip",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2046,
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "byte": 2109,
+          "line": 71,
+          "column": 1
+        },
+        "sha256": "3111d1b28d82cd396326d539ddf4b4898a584f3ae531c68ccdb21c358751f0cd"
+      },
+      {
+        "id": "equippable:facts:equipslot-default",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 928,
+          "line": 29,
+          "column": 1
+        },
+        "end": {
+          "byte": 966,
+          "line": 30,
+          "column": 1
+        },
+        "sha256": "d961cfc99b7035b8643005f68e6a20fba171bbd204c3a2c44da1581f153f7132"
+      },
+      {
+        "id": "equippable:facts:walkspeedmult-default",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 1104,
+          "line": 35,
+          "column": 1
+        },
+        "end": {
+          "byte": 1133,
+          "line": 36,
+          "column": 1
+        },
+        "sha256": "2bf9076bcd2ec40d91ae5cd766b605e6f9fecfb8c0a21c0a0e39ad3aac88b8ba"
+      },
+      {
+        "id": "equippable:facts:onequipfn-default",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 966,
+          "line": 30,
+          "column": 1
+        },
+        "end": {
+          "byte": 991,
+          "line": 31,
+          "column": 1
+        },
+        "sha256": "61692086959eb4794f274f2c146bffb8fcf6671957b1fc97532a80c3aefefed6"
+      },
+      {
+        "id": "equippable:facts:commented-field",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 1133,
+          "line": 36,
+          "column": 1
+        },
+        "end": {
+          "byte": 1203,
+          "line": 37,
+          "column": 1
+        },
+        "sha256": "8c0c53277ebda54ea93a7350c547c26b40d7e143f90eafec8d09912c0747bce3"
+      },
+      {
+        "id": "equippable:facts:speed-property",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 1549,
+          "line": 50,
+          "column": 1
+        },
+        "end": {
+          "byte": 1586,
+          "line": 51,
+          "column": 1
+        },
+        "sha256": "e2019ff12674def806ca6ce6321d06ad2f4099f5bbdef83227418b49c898c828"
+      },
+      {
+        "id": "equippable:facts:guard-replica",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 235,
+          "line": 8,
+          "column": 1
+        },
+        "end": {
+          "byte": 286,
+          "line": 9,
+          "column": 1
+        },
+        "sha256": "6de940a34e5058a92879bb24fd797d69544ed7e2d0fe002370502b89240b06e2"
+      },
+      {
+        "id": "equippable:facts:speed-replica",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 429,
+          "line": 11,
+          "column": 1
+        },
+        "end": {
+          "byte": 501,
+          "line": 12,
+          "column": 1
+        },
+        "sha256": "2146c818fd335cf4210e9b206ba95c4525d371d4356eb0bdfb20a86dffdd0260"
+      },
+      {
+        "id": "equippable:facts:set-callback",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2081,
+          "line": 69,
+          "column": 1
+        },
+        "end": {
+          "byte": 2105,
+          "line": 70,
+          "column": 1
+        },
+        "sha256": "8b209150b54f4dbf516e04f285b52b7373f0a2af351d1f8c12f4f7c894a09d9c"
+      },
+      {
+        "id": "equippable:facts:burnable",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2529,
+          "line": 95,
+          "column": 1
+        },
+        "end": {
+          "byte": 2578,
+          "line": 96,
+          "column": 1
+        },
+        "sha256": "141ea08f1c93e1bc8760d4964df35ca5ae688c335505cd196d50685b2c12ef91"
+      },
+      {
+        "id": "equippable:facts:guard-burnable",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2529,
+          "line": 95,
+          "column": 1
+        },
+        "end": {
+          "byte": 2578,
+          "line": 96,
+          "column": 1
+        },
+        "sha256": "141ea08f1c93e1bc8760d4964df35ca5ae688c335505cd196d50685b2c12ef91"
+      },
+      {
+        "id": "equippable:facts:burnable-stop",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2578,
+          "line": 96,
+          "column": 1
+        },
+        "end": {
+          "byte": 2633,
+          "line": 97,
+          "column": 1
+        },
+        "sha256": "70b3d54f0fb7f791b9bc627d6de8e2069e4ba3a2769ef9dad58da9b0807eacec"
+      },
+      {
+        "id": "equippable:facts:guard-callback",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2642,
+          "line": 99,
+          "column": 1
+        },
+        "end": {
+          "byte": 2676,
+          "line": 100,
+          "column": 1
+        },
+        "sha256": "3a079fa1f306be9839c444d1c18314651edd03a32a3638f3f7f4ddfc1bbad45c"
+      },
+      {
+        "id": "equippable:facts:equip-callback",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2676,
+          "line": 100,
+          "column": 1
+        },
+        "end": {
+          "byte": 2730,
+          "line": 101,
+          "column": 1
+        },
+        "sha256": "b9629316f9fff0010a34af332c0aacc398219d8b326c225c198f109e0ee5369c"
+      },
+      {
+        "id": "equippable:facts:equipped",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2738,
+          "line": 102,
+          "column": 1
+        },
+        "end": {
+          "byte": 2793,
+          "line": 103,
+          "column": 1
+        },
+        "sha256": "0e09be2ee48a837fe0eddff92eed52c127fed138b6d7a454acd724a2ce9e7fde"
+      },
+      {
+        "id": "equippable:facts:guard-equipmentmodel",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2794,
+          "line": 104,
+          "column": 1
+        },
+        "end": {
+          "byte": 2870,
+          "line": 105,
+          "column": 1
+        },
+        "sha256": "be68f33e07a0cbe799aac2134bac84a3431c8eb214337692a65d4faaf61adc18"
+      },
+      {
+        "id": "equippable:facts:model-callback",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2870,
+          "line": 105,
+          "column": 1
+        },
+        "end": {
+          "byte": 2931,
+          "line": 106,
+          "column": 1
+        },
+        "sha256": "184e0ccefe67784cdce25342984375e46aaaf673b85012e3e34666e8cc124797"
+      }
+    ],
+    "symbols": [
+      {
+        "id": "components/equippable.lua#module/class:Equippable",
+        "kind": "class",
+        "name": "Equippable",
+        "scope": "module",
+        "owner_id": null,
+        "anchor_id": "equippable:facts:symbol-Equippable",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": "nil"
+      },
+      {
+        "id": "components/equippable.lua#Equippable/constructor:new",
+        "kind": "constructor",
+        "name": "new",
+        "scope": "Equippable",
+        "owner_id": "components/equippable.lua#module/class:Equippable",
+        "anchor_id": "equippable:facts:symbol-new",
+        "parameters": [
+          {
+            "name": "self",
+            "kind": "named"
+          },
+          {
+            "name": "inst",
+            "kind": "named"
+          }
+        ],
+        "calling": "plain",
+        "base_expression": null
+      },
+      {
+        "id": "components/equippable.lua#Equippable/field:equipslot",
+        "kind": "field",
+        "name": "equipslot",
+        "scope": "Equippable",
+        "owner_id": "components/equippable.lua#module/class:Equippable",
+        "anchor_id": "equippable:facts:symbol-equipslot",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": null
+      },
+      {
+        "id": "components/equippable.lua#Equippable/field:walkspeedmult",
+        "kind": "field",
+        "name": "walkspeedmult",
+        "scope": "Equippable",
+        "owner_id": "components/equippable.lua#module/class:Equippable",
+        "anchor_id": "equippable:facts:symbol-walkspeedmult",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": null
+      },
+      {
+        "id": "components/equippable.lua#Equippable/field:onequipfn",
+        "kind": "field",
+        "name": "onequipfn",
+        "scope": "Equippable",
+        "owner_id": "components/equippable.lua#module/class:Equippable",
+        "anchor_id": "equippable:facts:symbol-onequipfn",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": null
+      },
+      {
+        "id": "components/equippable.lua#module/function:onwalkspeedmult",
+        "kind": "function",
+        "name": "onwalkspeedmult",
+        "scope": "module",
+        "owner_id": null,
+        "anchor_id": "equippable:facts:symbol-onwalkspeedmult",
+        "parameters": [
+          {
+            "name": "self",
+            "kind": "named"
+          },
+          {
+            "name": "walkspeedmult",
+            "kind": "named"
+          }
+        ],
+        "calling": "plain",
+        "base_expression": null
+      },
+      {
+        "id": "components/equippable.lua#Equippable/method:Equip",
+        "kind": "method",
+        "name": "Equip",
+        "scope": "Equippable",
+        "owner_id": "components/equippable.lua#module/class:Equippable",
+        "anchor_id": "equippable:facts:symbol-Equip",
+        "parameters": [
+          {
+            "name": "owner",
+            "kind": "named"
+          },
+          {
+            "name": "from_ground",
+            "kind": "named"
+          }
+        ],
+        "calling": "colon",
+        "base_expression": null
+      },
+      {
+        "id": "components/equippable.lua#Equippable/method:SetOnEquip",
+        "kind": "method",
+        "name": "SetOnEquip",
+        "scope": "Equippable",
+        "owner_id": "components/equippable.lua#module/class:Equippable",
+        "anchor_id": "equippable:facts:symbol-SetOnEquip",
+        "parameters": [
+          {
+            "name": "fn",
+            "kind": "named"
+          }
+        ],
+        "calling": "colon",
+        "base_expression": null
+      }
+    ],
+    "records": [
+      {
+        "id": "equippable:fact:equipslot-default",
+        "kind": "assignment",
+        "subject_symbol_id": "components/equippable.lua#Equippable/constructor:new",
+        "anchor_id": "equippable:facts:equipslot-default",
+        "guards": [],
+        "data": {
+          "target": "self.equipslot",
+          "expression": "EQUIPSLOTS.HANDS",
+          "literal_kind": "nonliteral"
+        }
+      },
+      {
+        "id": "equippable:fact:walkspeedmult-default",
+        "kind": "assignment",
+        "subject_symbol_id": "components/equippable.lua#Equippable/constructor:new",
+        "anchor_id": "equippable:facts:walkspeedmult-default",
+        "guards": [],
+        "data": {
+          "target": "self.walkspeedmult",
+          "expression": "nil",
+          "literal_kind": "nil"
+        }
+      },
+      {
+        "id": "equippable:fact:onequipfn-default",
+        "kind": "assignment",
+        "subject_symbol_id": "components/equippable.lua#Equippable/constructor:new",
+        "anchor_id": "equippable:facts:onequipfn-default",
+        "guards": [],
+        "data": {
+          "target": "self.onequipfn",
+          "expression": "nil",
+          "literal_kind": "nil"
+        }
+      },
+      {
+        "id": "equippable:fact:commented-field",
+        "kind": "comment",
+        "subject_symbol_id": "components/equippable.lua#Equippable/constructor:new",
+        "anchor_id": "equippable:facts:commented-field",
+        "guards": [],
+        "data": {
+          "text": "--self.retrictedtag = nil --only entities with this tag can equip",
+          "style": "line"
+        }
+      },
+      {
+        "id": "equippable:fact:speed-property",
+        "kind": "property_callback",
+        "subject_symbol_id": "components/equippable.lua#module/class:Equippable",
+        "anchor_id": "equippable:facts:speed-property",
+        "guards": [],
+        "data": {
+          "field_symbol_id": "components/equippable.lua#Equippable/field:walkspeedmult",
+          "callback_expression": "onwalkspeedmult",
+          "resolution": {
+            "state": "resolved",
+            "symbol_id": "components/equippable.lua#module/function:onwalkspeedmult",
+            "candidates": [],
+            "reason": null
+          }
+        }
+      },
+      {
+        "id": "equippable:fact:speed-replica",
+        "kind": "call",
+        "subject_symbol_id": "components/equippable.lua#module/function:onwalkspeedmult",
+        "anchor_id": "equippable:facts:speed-replica",
+        "guards": [
+          {
+            "expression": "self.inst.replica.inventoryitem ~= nil",
+            "branch": "then",
+            "anchor_id": "equippable:facts:guard-replica"
+          }
+        ],
+        "data": {
+          "receiver": "self.inst.replica.inventoryitem",
+          "callee": "SetWalkSpeedMult",
+          "arguments": [
+            "walkspeedmult"
+          ],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      },
+      {
+        "id": "equippable:fact:set-callback",
+        "kind": "assignment",
+        "subject_symbol_id": "components/equippable.lua#Equippable/method:SetOnEquip",
+        "anchor_id": "equippable:facts:set-callback",
+        "guards": [],
+        "data": {
+          "target": "self.onequipfn",
+          "expression": "fn",
+          "literal_kind": "nonliteral"
+        }
+      },
+      {
+        "id": "equippable:fact:burnable",
+        "kind": "component_access",
+        "subject_symbol_id": "components/equippable.lua#Equippable/method:Equip",
+        "anchor_id": "equippable:facts:burnable",
+        "guards": [],
+        "data": {
+          "receiver": "self.inst",
+          "name_expression": "burnable",
+          "literal_name": "burnable",
+          "operation": "read"
+        }
+      },
+      {
+        "id": "equippable:fact:burnable-stop",
+        "kind": "call",
+        "subject_symbol_id": "components/equippable.lua#Equippable/method:Equip",
+        "anchor_id": "equippable:facts:burnable-stop",
+        "guards": [
+          {
+            "expression": "self.inst.components.burnable ~= nil",
+            "branch": "then",
+            "anchor_id": "equippable:facts:guard-burnable"
+          }
+        ],
+        "data": {
+          "receiver": "self.inst.components.burnable",
+          "callee": "StopSmoldering",
+          "arguments": [],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      },
+      {
+        "id": "equippable:fact:equip-callback",
+        "kind": "call",
+        "subject_symbol_id": "components/equippable.lua#Equippable/method:Equip",
+        "anchor_id": "equippable:facts:equip-callback",
+        "guards": [
+          {
+            "expression": "self.onequipfn ~= nil",
+            "branch": "then",
+            "anchor_id": "equippable:facts:guard-callback"
+          }
+        ],
+        "data": {
+          "receiver": null,
+          "callee": "self.onequipfn",
+          "arguments": [
+            "self.inst",
+            "owner",
+            "from_ground"
+          ],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      },
+      {
+        "id": "equippable:fact:equipped",
+        "kind": "event_emit",
+        "subject_symbol_id": "components/equippable.lua#Equippable/method:Equip",
+        "anchor_id": "equippable:facts:equipped",
+        "guards": [],
+        "data": {
+          "receiver": "self.inst",
+          "name_expression": "\"equipped\"",
+          "literal_name": "equipped",
+          "payload_expression": "{ owner = owner }",
+          "callback_expression": null
+        }
+      },
+      {
+        "id": "equippable:fact:model-callback",
+        "kind": "call",
+        "subject_symbol_id": "components/equippable.lua#Equippable/method:Equip",
+        "anchor_id": "equippable:facts:model-callback",
+        "guards": [
+          {
+            "expression": "self.onequiptomodelfn ~= nil and owner:HasTag(\"equipmentmodel\")",
+            "branch": "then",
+            "anchor_id": "equippable:facts:guard-equipmentmodel"
+          }
+        ],
+        "data": {
+          "receiver": null,
+          "callee": "self.onequiptomodelfn",
+          "arguments": [
+            "self.inst",
+            "owner",
+            "from_ground"
+          ],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      }
+    ]
+  },
+  "candidates": {
+    "format_version": "1.0.0",
+    "kind": "candidates",
+    "source_id": "lsp-dst",
+    "target_file": "components/equippable.lua",
+    "anchors": [
+      {
+        "id": "equippable:candidates:wrong-event",
+        "source_id": "lsp-dst",
+        "path": "scripts/components/members/equippable.lua",
+        "start": {
+          "byte": 3548,
+          "line": 114,
+          "column": 1
+        },
+        "end": {
+          "byte": 3607,
+          "line": 115,
+          "column": 1
+        },
+        "sha256": "6e5a1ea90cf8138b1f8343b405c34345b870dc76384c832d3746b34652ae369f"
+      },
+      {
+        "id": "equippable:candidates:speed",
+        "source_id": "lsp-dst",
+        "path": "scripts/components/members/equippable.lua",
+        "start": {
+          "byte": 493,
+          "line": 11,
+          "column": 1
+        },
+        "end": {
+          "byte": 643,
+          "line": 12,
+          "column": 1
+        },
+        "sha256": "103a31103f414a3ed951588144b88ea09a3675bfd99292779facaddd0e543625"
+      },
+      {
+        "id": "equippable:candidates:ground",
+        "source_id": "lsp-dst",
+        "path": "scripts/components/members/equippable.lua",
+        "start": {
+          "byte": 3651,
+          "line": 117,
+          "column": 1
+        },
+        "end": {
+          "byte": 3717,
+          "line": 118,
+          "column": 1
+        },
+        "sha256": "dfa5482d989ef4b87a6931906f235afa3866d7dd4d093576f6c38bb232465ae9"
+      }
+    ],
+    "claims": [
+      {
+        "id": "lsp-dst:equippable:wrong-event",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "behavior:equip-event"
+        },
+        "value": {
+          "kind": "text",
+          "text": "Equip 在物品实体上发出 onequip 事件。"
+        },
+        "anchor_id": "equippable:candidates:wrong-event"
+      },
+      {
+        "id": "lsp-dst:equippable:speed",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/field:walkspeedmult",
+          "facet": "field:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "anchor_id": "equippable:candidates:speed"
+      },
+      {
+        "id": "lsp-dst:equippable:ground",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "param:from_ground:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": null
+        },
+        "anchor_id": "equippable:candidates:ground"
+      }
+    ]
+  },
+  "reviews": {
+    "format_version": "1.0.0",
+    "kind": "reviews",
+    "target_file": "components/equippable.lua",
+    "anchors": [
+      {
+        "id": "equippable:reviews:actual-reject",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2738,
+          "line": 102,
+          "column": 1
+        },
+        "end": {
+          "byte": 2793,
+          "line": 103,
+          "column": 1
+        },
+        "sha256": "0e09be2ee48a837fe0eddff92eed52c127fed138b6d7a454acd724a2ce9e7fde"
+      },
+      {
+        "id": "equippable:reviews:actual-event",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2642,
+          "line": 99,
+          "column": 1
+        },
+        "end": {
+          "byte": 2793,
+          "line": 103,
+          "column": 1
+        },
+        "sha256": "1b7271c836bd0679fd5ca0894abbe9f997faa5b684df61342dc74e738b3304d0"
+      },
+      {
+        "id": "equippable:reviews:callback-args",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2642,
+          "line": 99,
+          "column": 1
+        },
+        "end": {
+          "byte": 2730,
+          "line": 101,
+          "column": 1
+        },
+        "sha256": "799bf165c73f4d0ecd0581907c91723aba41054ef3ac59fdba93b94c71153a10"
+      },
+      {
+        "id": "equippable:reviews:setter",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2046,
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "byte": 2109,
+          "line": 71,
+          "column": 1
+        },
+        "sha256": "3111d1b28d82cd396326d539ddf4b4898a584f3ae531c68ccdb21c358751f0cd"
+      },
+      {
+        "id": "equippable:reviews:speed-callback",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 183,
+          "line": 7,
+          "column": 1
+        },
+        "end": {
+          "byte": 513,
+          "line": 14,
+          "column": 1
+        },
+        "sha256": "e972f0ad0cb8dfbabb65913303371e40f117cfb37c1519dd6fad8c6162bba278"
+      },
+      {
+        "id": "equippable:reviews:properties",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 1520,
+          "line": 49,
+          "column": 1
+        },
+        "end": {
+          "byte": 1669,
+          "line": 53,
+          "column": 1
+        },
+        "sha256": "780ad7d6eeed867472fde4c6ebde76355dc26468559f9b68ee1cd91836a3fea2"
+      },
+      {
+        "id": "equippable:reviews:class",
+        "source_id": "dst",
+        "path": "class.lua",
+        "start": {
+          "byte": 625,
+          "line": 36,
+          "column": 1
+        },
+        "end": {
+          "byte": 824,
+          "line": 46,
+          "column": 1
+        },
+        "sha256": "3fd402f452b7c22a86ebdc3a047f830b3ee359dc8be945ebab76e05dbac888b7"
+      },
+      {
+        "id": "equippable:reviews:fn-set",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2046,
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "byte": 2109,
+          "line": 71,
+          "column": 1
+        },
+        "sha256": "3111d1b28d82cd396326d539ddf4b4898a584f3ae531c68ccdb21c358751f0cd"
+      },
+      {
+        "id": "equippable:reviews:fn-use",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2642,
+          "line": 99,
+          "column": 1
+        },
+        "end": {
+          "byte": 2730,
+          "line": 101,
+          "column": 1
+        },
+        "sha256": "799bf165c73f4d0ecd0581907c91723aba41054ef3ac59fdba93b94c71153a10"
+      },
+      {
+        "id": "equippable:reviews:fn-clear",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2046,
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "byte": 2109,
+          "line": 71,
+          "column": 1
+        },
+        "sha256": "3111d1b28d82cd396326d539ddf4b4898a584f3ae531c68ccdb21c358751f0cd"
+      },
+      {
+        "id": "equippable:reviews:fn-guard",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2642,
+          "line": 99,
+          "column": 1
+        },
+        "end": {
+          "byte": 2730,
+          "line": 101,
+          "column": 1
+        },
+        "sha256": "799bf165c73f4d0ecd0581907c91723aba41054ef3ac59fdba93b94c71153a10"
+      },
+      {
+        "id": "equippable:reviews:speed-old",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 1104,
+          "line": 35,
+          "column": 1
+        },
+        "end": {
+          "byte": 1133,
+          "line": 36,
+          "column": 1
+        },
+        "sha256": "2bf9076bcd2ec40d91ae5cd766b605e6f9fecfb8c0a21c0a0e39ad3aac88b8ba"
+      },
+      {
+        "id": "equippable:reviews:summary-0",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 832,
+          "line": 25,
+          "column": 1
+        },
+        "end": {
+          "byte": 1672,
+          "line": 54,
+          "column": 1
+        },
+        "sha256": "8adbc57e47348526d4a45afbf7f3ce8a4a4800822c27f47f3354a62e1b2a94f1"
+      },
+      {
+        "id": "equippable:reviews:summary-1",
+        "source_id": "dst",
+        "path": "components/equippable.lua",
+        "start": {
+          "byte": 2455,
+          "line": 92,
+          "column": 1
+        },
+        "end": {
+          "byte": 3283,
+          "line": 124,
+          "column": 1
+        },
+        "sha256": "6b4e66f3c8857ce5e3d1281ab288c9a60c09fbacaad4fd54a489bb42bf21e16a"
+      },
+      {
+        "id": "equippable:reviews:class-properties",
+        "source_id": "dst",
+        "path": "class.lua",
+        "start": {
+          "byte": 1611,
+          "line": 83,
+          "column": 1
+        },
+        "end": {
+          "byte": 2523,
+          "line": 111,
+          "column": 1
+        },
+        "sha256": "2f0bfb5ab9a454e5ef4cf7d8dbf889379d30cbf1426b6af84dae3ed939f51135"
+      },
+      {
+        "id": "equippable:reviews:class-construction",
+        "source_id": "dst",
+        "path": "class.lua",
+        "start": {
+          "byte": 4492,
+          "line": 181,
+          "column": 1
+        },
+        "end": {
+          "byte": 4761,
+          "line": 196,
+          "column": 1
+        },
+        "sha256": "a2d5b4530c9d803a62e5fa6f1cde13526a3302283672df9dc700c3c0d42b6abf"
+      }
+    ],
+    "entries": [
+      {
+        "id": "equippable:review:reject-onequip",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "behavior:equip-event"
+        },
+        "value": {
+          "kind": "text",
+          "text": "Equip 在物品实体上发出 onequip 事件。"
+        },
+        "state": "verified",
+        "verdict": "reject",
+        "candidate_ids": [
+          "lsp-dst:equippable:wrong-event"
+        ],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:actual-reject",
+            "expected_sha256": "0e09be2ee48a837fe0eddff92eed52c127fed138b6d7a454acd724a2ce9e7fde",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "外部名称 onequip 与源码 equipped 不同，仅拒绝该候选。"
+      },
+      {
+        "id": "equippable:review:event",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "behavior:equip-event"
+        },
+        "value": {
+          "kind": "text",
+          "text": "Equip 在 self.inst 上发出 equipped 事件，payload 为 { owner = owner }；在 onequipfn 调用后发出。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:actual-event",
+            "expected_sha256": "1b7271c836bd0679fd5ca0894abbe9f997faa5b684df61342dc74e738b3304d0",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "独立核验替代值，保留被拒绝候选。"
+      },
+      {
+        "id": "equippable:review:callback",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "behavior:callback-arguments"
+        },
+        "value": {
+          "kind": "text",
+          "text": "已设置 onequipfn 时调用 self.onequipfn(self.inst, owner, from_ground)；动态函数目标保持未解析。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:callback-args",
+            "expected_sha256": "799bf165c73f4d0ecd0581907c91723aba41054ef3ac59fdba93b94c71153a10",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "equippable:reviews:setter",
+            "expected_sha256": "3111d1b28d82cd396326d539ddf4b4898a584f3ae531c68ccdb21c358751f0cd",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "equippable:review:speed-property",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/field:walkspeedmult",
+          "facet": "behavior:replica-update"
+        },
+        "value": {
+          "kind": "text",
+          "text": "walkspeedmult 属性赋值经 Class 回调更新 inventoryitem replica；没有该 replica 时不调用 SetWalkSpeedMult。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:speed-callback",
+            "expected_sha256": "e972f0ad0cb8dfbabb65913303371e40f117cfb37c1519dd6fad8c6162bba278",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "equippable:reviews:properties",
+            "expected_sha256": "780ad7d6eeed867472fde4c6ebde76355dc26468559f9b68ee1cd91836a3fea2",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "equippable:reviews:class",
+            "expected_sha256": "3fd402f452b7c22a86ebdc3a047f830b3ee359dc8be945ebab76e05dbac888b7",
+            "role": "property-mechanism"
+          },
+          {
+            "anchor_id": "equippable:reviews:class-properties",
+            "expected_sha256": "2f0bfb5ab9a454e5ef4cf7d8dbf889379d30cbf1426b6af84dae3ed939f51135",
+            "role": "property-mechanism"
+          },
+          {
+            "anchor_id": "equippable:reviews:class-construction",
+            "expected_sha256": "a2d5b4530c9d803a62e5fa6f1cde13526a3302283672df9dc700c3c0d42b6abf",
+            "role": "property-mechanism"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "equippable:review:fn",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:SetOnEquip",
+          "facet": "param:fn:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "function|nil"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "建议输入为函数或 nil；不推断回调各参数完整实体类型。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:fn-set",
+            "expected_sha256": "3111d1b28d82cd396326d539ddf4b4898a584f3ae531c68ccdb21c358751f0cd",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "equippable:reviews:fn-use",
+            "expected_sha256": "799bf165c73f4d0ecd0581907c91723aba41054ef3ac59fdba93b94c71153a10",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "equippable:review:fn-optional",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:SetOnEquip",
+          "facet": "param:fn:optional"
+        },
+        "value": {
+          "kind": "optional",
+          "accepts_omitted": true,
+          "accepts_nil": true
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:fn-clear",
+            "expected_sha256": "3111d1b28d82cd396326d539ddf4b4898a584f3ae531c68ccdb21c358751f0cd",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "equippable:reviews:fn-guard",
+            "expected_sha256": "799bf165c73f4d0ecd0581907c91723aba41054ef3ac59fdba93b94c71153a10",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "equippable:review:speed-stale",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/field:walkspeedmult",
+          "facet": "field:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "state": "stale",
+        "verdict": "accept",
+        "candidate_ids": [
+          "lsp-dst:equippable:speed"
+        ],
+        "reviewed_snapshot_id": null,
+        "reviewer": "AI/source-review",
+        "reviewed_at": null,
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:speed-old",
+            "expected_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "刻意构造的失效演示：旧 expected hash 不符，不能采纳；不是实际历史核验记录。"
+      },
+      {
+        "id": "equippable:review:ground-pending",
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "param:from_ground:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": null
+        },
+        "state": "pending",
+        "verdict": "accept",
+        "candidate_ids": [
+          "lsp-dst:equippable:ground"
+        ],
+        "reviewed_snapshot_id": null,
+        "reviewer": "AI/source-review",
+        "reviewed_at": null,
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [],
+        "runtime": [],
+        "note": "外部 idk 转为未知，本样例未核验调用方传入值。"
+      },
+      {
+        "id": "equippable:review:summary",
+        "target": {
+          "symbol_id": "components/equippable.lua#module/class:Equippable",
+          "facet": "summary"
+        },
+        "value": {
+          "kind": "text",
+          "text": "管理物品装备状态、装备回调和装备属性同步。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "equippable:reviews:summary-0",
+            "expected_sha256": "8adbc57e47348526d4a45afbf7f3ce8a4a4800822c27f47f3354a62e1b2a94f1",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "equippable:reviews:summary-1",
+            "expected_sha256": "6b4e66f3c8857ce5e3d1281ab288c9a60c09fbacaad4fd54a489bb42bf21e16a",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "短索引职责摘要来自所列源码区间。"
+      }
+    ]
+  },
+  "projection_checks": {
+    "index_symbol_ids": [
+      "components/equippable.lua#Equippable/method:Equip",
+      "components/equippable.lua#Equippable/method:SetOnEquip",
+      "components/equippable.lua#module/class:Equippable"
+    ],
+    "luacats_review_ids": [
+      "equippable:review:fn",
+      "equippable:review:fn-optional"
+    ],
+    "wiki_review_ids": [
+      "equippable:review:event",
+      "equippable:review:callback",
+      "equippable:review:speed-property",
+      "equippable:review:summary"
+    ],
+    "excluded_candidate_ids": [
+      "lsp-dst:equippable:wrong-event",
+      "lsp-dst:equippable:speed",
+      "lsp-dst:equippable:ground"
+    ]
+  },
+  "resolved": {
+    "format_version": "1.0.0",
+    "kind": "resolved",
+    "snapshot_id": "dst-steam-25643519",
+    "input_sha256": {
+      "manifest": "7ff3b7358195a2812d610146b3ce02668cb70e6a9bd698dcdb0bc925aebd5036",
+      "facts": "6cb14bd25fa2ed9a45c461a47b03af1e4d603fcbb09fc1d30d356772d68d4573",
+      "candidates": "0a059dda8b0ab96236b1dc51fd8a7e6f9e89d88c960307e259b6a364a6837ecd",
+      "reviews": "277433c7e8aa9c9e2ee3f8730f7b80a0603b9946d9fcac447fb18eb6b9f369ed"
+    },
+    "coverage": {
+      "status": "partial",
+      "selection": {
+        "symbols": [
+          "components/equippable.lua#module/class:Equippable",
+          "components/equippable.lua#Equippable/constructor:new",
+          "components/equippable.lua#Equippable/field:equipslot",
+          "components/equippable.lua#Equippable/field:walkspeedmult",
+          "components/equippable.lua#Equippable/field:onequipfn",
+          "components/equippable.lua#module/function:onwalkspeedmult",
+          "components/equippable.lua#Equippable/method:Equip",
+          "components/equippable.lua#Equippable/method:SetOnEquip"
+        ],
+        "record_kinds": [
+          "assignment",
+          "call",
+          "comment",
+          "component_access",
+          "event_emit",
+          "property_callback"
+        ],
+        "description": "人工选择的关键符号与语法观察；不承诺全文或所列方法全部语句覆盖。"
+      },
+      "truncated": false,
+      "diagnostics": [
+        {
+          "code": "MANUAL_REFERENCE_SUBSET",
+          "severity": "info",
+          "message": "W01 手工参考数据，不是 Full Moon 提取输出。",
+          "anchor_id": null
+        }
+      ]
+    },
+    "records": [
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/field:walkspeedmult",
+          "facet": "behavior:replica-update"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "walkspeedmult 属性赋值经 Class 回调更新 inventoryitem replica；没有该 replica 时不调用 SetWalkSpeedMult。"
+        },
+        "selected_review_ids": [
+          "equippable:review:speed-property"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/field:walkspeedmult",
+          "facet": "field:type"
+        },
+        "status": "review-needed",
+        "value": null,
+        "selected_review_ids": [],
+        "candidate_ids": [
+          "lsp-dst:equippable:speed"
+        ],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Stale evidence requires a new review."
+      },
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "behavior:callback-arguments"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "已设置 onequipfn 时调用 self.onequipfn(self.inst, owner, from_ground)；动态函数目标保持未解析。"
+        },
+        "selected_review_ids": [
+          "equippable:review:callback"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "behavior:equip-event"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "Equip 在 self.inst 上发出 equipped 事件，payload 为 { owner = owner }；在 onequipfn 调用后发出。"
+        },
+        "selected_review_ids": [
+          "equippable:review:event"
+        ],
+        "candidate_ids": [
+          "lsp-dst:equippable:wrong-event"
+        ],
+        "rejected_candidate_ids": [
+          "lsp-dst:equippable:wrong-event"
+        ],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:Equip",
+          "facet": "param:from_ground:type"
+        },
+        "status": "unknown",
+        "value": null,
+        "selected_review_ids": [],
+        "candidate_ids": [
+          "lsp-dst:equippable:ground"
+        ],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "No current verified acceptance."
+      },
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:SetOnEquip",
+          "facet": "param:fn:optional"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "optional",
+          "accepts_omitted": true,
+          "accepts_nil": true
+        },
+        "selected_review_ids": [
+          "equippable:review:fn-optional"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#Equippable/method:SetOnEquip",
+          "facet": "param:fn:type"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "type",
+          "expression": "function|nil"
+        },
+        "selected_review_ids": [
+          "equippable:review:fn"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/equippable.lua#module/class:Equippable",
+          "facet": "summary"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "管理物品装备状态、装备回调和装备属性同步。"
+        },
+        "selected_review_ids": [
+          "equippable:review:summary"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      }
+    ],
+    "conflicts": []
+  }
+}

@@ -1,0 +1,2273 @@
+{
+  "format_version": "1.0.0",
+  "kind": "example-bundle",
+  "purpose": "W01 手工参考：默认赋值、属性回调、条件调用、保存分支与可选参数。",
+  "manifest": {
+    "format_version": "1.0.0",
+    "kind": "manifest",
+    "snapshot": {
+      "id": "dst-steam-25643519",
+      "version": {
+        "scheme": "steam-buildid",
+        "value": "25643519"
+      }
+    },
+    "producer": {
+      "name": "w01-manual-reference",
+      "version": "1.0.0",
+      "mode": "manual-reference",
+      "dialect": "lua51",
+      "parser": null
+    },
+    "sources": [
+      {
+        "id": "dst",
+        "kind": "game-source",
+        "root_hint": "raw/current/scripts",
+        "revision": {
+          "scheme": "steam-buildid",
+          "value": "25643519"
+        },
+        "files": [
+          {
+            "path": "class.lua",
+            "sha256": "eff1a5280260c73c9fc4c8bdff95ae31a35c80f62764749722bfc123f8694454",
+            "encoding": "utf-8"
+          },
+          {
+            "path": "components/finiteuses.lua",
+            "sha256": "db589f3ccc740d002c6106be914a1cde6375056262720359b2becdba25cec4b4",
+            "encoding": "utf-8"
+          },
+          {
+            "path": "entityscript.lua",
+            "sha256": "df52c6816fce28d22ed6fe5004575044da8fcf84a8a834ec14ef92aca3fe7501",
+            "encoding": "utf-8"
+          }
+        ]
+      },
+      {
+        "id": "lsp-dst",
+        "kind": "annotation-library",
+        "root_hint": null,
+        "revision": {
+          "scheme": "git-commit",
+          "value": "cd9fdce8a88176a8db9190d27189eeb710e2b30d"
+        },
+        "files": [
+          {
+            "path": "scripts/components/members/finiteuses.lua",
+            "sha256": "c9c77c3526fea6f572cd316e372ddbf9aa1804e4add6d3c3a10c66ffb14847ac",
+            "encoding": "utf-8"
+          }
+        ]
+      }
+    ]
+  },
+  "facts": {
+    "format_version": "1.0.0",
+    "kind": "facts",
+    "snapshot_id": "dst-steam-25643519",
+    "primary_file": "components/finiteuses.lua",
+    "coverage": {
+      "status": "partial",
+      "selection": {
+        "symbols": [
+          "components/finiteuses.lua#module/class:FiniteUses",
+          "components/finiteuses.lua#FiniteUses/constructor:new",
+          "components/finiteuses.lua#FiniteUses/field:total",
+          "components/finiteuses.lua#FiniteUses/field:current",
+          "components/finiteuses.lua#FiniteUses/field:modifyuseconsumption",
+          "components/finiteuses.lua#module/function:onfiniteuses",
+          "components/finiteuses.lua#FiniteUses/method:SetMaxUses",
+          "components/finiteuses.lua#FiniteUses/method:SetUses",
+          "components/finiteuses.lua#FiniteUses/method:Use",
+          "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+          "components/finiteuses.lua#FiniteUses/method:OnSave",
+          "components/finiteuses.lua#FiniteUses/method:OnRemoveFromEntity"
+        ],
+        "record_kinds": [
+          "assignment",
+          "call",
+          "component_access",
+          "event_emit",
+          "property_callback",
+          "return"
+        ],
+        "description": "人工选择的关键符号与语法观察；不承诺全文或所列方法全部语句覆盖。"
+      },
+      "truncated": false,
+      "diagnostics": [
+        {
+          "code": "MANUAL_REFERENCE_SUBSET",
+          "severity": "info",
+          "message": "W01 手工参考数据，不是 Full Moon 提取输出。",
+          "anchor_id": null
+        }
+      ]
+    },
+    "anchors": [
+      {
+        "id": "finiteuses:facts:symbol-FiniteUses",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 332,
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "byte": 582,
+          "line": 22,
+          "column": 1
+        },
+        "sha256": "0a813b19e8488ab4e7f55b9e750868bf7d5b4a4c4c4dbbccb9f2fa68cdeba674"
+      },
+      {
+        "id": "finiteuses:facts:symbol-new",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 332,
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "byte": 518,
+          "line": 17,
+          "column": 1
+        },
+        "sha256": "b0089f7f1b47c4f82916f5057e02bdfa7ed1b7f2efe29c7f59aff0caaf6d8eef"
+      },
+      {
+        "id": "finiteuses:facts:symbol-total",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 399,
+          "line": 12,
+          "column": 1
+        },
+        "end": {
+          "byte": 420,
+          "line": 13,
+          "column": 1
+        },
+        "sha256": "f9e23409f5ec73e10d98b3fe071d25f3c7b24ad808c1692d0ba7eb1bfdae0206"
+      },
+      {
+        "id": "finiteuses:facts:symbol-current",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 420,
+          "line": 13,
+          "column": 1
+        },
+        "end": {
+          "byte": 443,
+          "line": 14,
+          "column": 1
+        },
+        "sha256": "27a387208367dd1f477e6b65349c0445bbaf755eb06e8d9259646e3bc123f256"
+      },
+      {
+        "id": "finiteuses:facts:symbol-modifyuseconsumption",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2489,
+          "line": 98,
+          "column": 1
+        },
+        "end": {
+          "byte": 2524,
+          "line": 99,
+          "column": 1
+        },
+        "sha256": "7219878800c260401ed889cfd227910cedd89d0cd52deff56b95e0df26a480db"
+      },
+      {
+        "id": "finiteuses:facts:symbol-onfiniteuses",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 0,
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "byte": 331,
+          "line": 9,
+          "column": 1
+        },
+        "sha256": "05f02e81451308bf1cdb82d5ae2b51c0892dff12939756c0b84f43268c8a91b7"
+      },
+      {
+        "id": "finiteuses:facts:symbol-SetMaxUses",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1576,
+          "line": 60,
+          "column": 1
+        },
+        "end": {
+          "byte": 1637,
+          "line": 63,
+          "column": 1
+        },
+        "sha256": "bc55a2f94c0711d6bae6ccafcd5c1d75326ac77ab3f9401f24b90959b0367ce6"
+      },
+      {
+        "id": "finiteuses:facts:symbol-SetUses",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1638,
+          "line": 64,
+          "column": 1
+        },
+        "end": {
+          "byte": 2099,
+          "line": 80,
+          "column": 1
+        },
+        "sha256": "5227cb2c8801d28b5d3da3da2436bc1ed41f0ee84e907919618cd26f38822e68"
+      },
+      {
+        "id": "finiteuses:facts:symbol-Use",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2159,
+          "line": 85,
+          "column": 1
+        },
+        "end": {
+          "byte": 2236,
+          "line": 88,
+          "column": 1
+        },
+        "sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0"
+      },
+      {
+        "id": "finiteuses:facts:symbol-OnUsedAsItem",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2529,
+          "line": 101,
+          "column": 1
+        },
+        "end": {
+          "byte": 2989,
+          "line": 115,
+          "column": 1
+        },
+        "sha256": "2620d82d7f8d8b34798007a47b89fa2d5f8a5fe2c0ed572a6869b568ef3310b9"
+      },
+      {
+        "id": "finiteuses:facts:symbol-OnSave",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1324,
+          "line": 48,
+          "column": 1
+        },
+        "end": {
+          "byte": 1468,
+          "line": 53,
+          "column": 1
+        },
+        "sha256": "c19d2696de6d232fe34c2b1c6f5d99ac77d2a5fbf4a803d3d1d6367d32d50ebd"
+      },
+      {
+        "id": "finiteuses:facts:symbol-OnRemoveFromEntity",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 583,
+          "line": 23,
+          "column": 1
+        },
+        "end": {
+          "byte": 665,
+          "line": 26,
+          "column": 1
+        },
+        "sha256": "5fa970a1fdb820ecf9b67ba4fdb2a86d4e3b97948a3195afc65448a243973895"
+      },
+      {
+        "id": "finiteuses:facts:total-default",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 399,
+          "line": 12,
+          "column": 1
+        },
+        "end": {
+          "byte": 420,
+          "line": 13,
+          "column": 1
+        },
+        "sha256": "f9e23409f5ec73e10d98b3fe071d25f3c7b24ad808c1692d0ba7eb1bfdae0206"
+      },
+      {
+        "id": "finiteuses:facts:current-default",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 420,
+          "line": 13,
+          "column": 1
+        },
+        "end": {
+          "byte": 443,
+          "line": 14,
+          "column": 1
+        },
+        "sha256": "27a387208367dd1f477e6b65349c0445bbaf755eb06e8d9259646e3bc123f256"
+      },
+      {
+        "id": "finiteuses:facts:current-property",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 525,
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "byte": 553,
+          "line": 20,
+          "column": 1
+        },
+        "sha256": "09e3159b43a44d2009ce813a142e06f507ac005425779a64a0b76951fbfc069b"
+      },
+      {
+        "id": "finiteuses:facts:total-property",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 553,
+          "line": 20,
+          "column": 1
+        },
+        "end": {
+          "byte": 579,
+          "line": 21,
+          "column": 1
+        },
+        "sha256": "a57d8666f8bf41e6e7a481a88011bcb9a2af7c518a9e57d50431b81ac6a82c39"
+      },
+      {
+        "id": "finiteuses:facts:repairable",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 34,
+          "line": 2,
+          "column": 1
+        },
+        "end": {
+          "byte": 89,
+          "line": 3,
+          "column": 1
+        },
+        "sha256": "04b9589d1d6ae8cda675c1e3066f05f7559cf818e31fec6b4d0f4bd31dc57688"
+      },
+      {
+        "id": "finiteuses:facts:guard-repairable",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 89,
+          "line": 3,
+          "column": 1
+        },
+        "end": {
+          "byte": 112,
+          "line": 4,
+          "column": 1
+        },
+        "sha256": "1c68c514b76aa170672e799c6931b2e3dccc959ef757f0242d13060a35de1b50"
+      },
+      {
+        "id": "finiteuses:facts:repairable-update",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 112,
+          "line": 4,
+          "column": 1
+        },
+        "end": {
+          "byte": 182,
+          "line": 5,
+          "column": 1
+        },
+        "sha256": "6c5d6d80a868d3f3218dcef6fff520cc70e3d100a545787699a529f697eb948a"
+      },
+      {
+        "id": "finiteuses:facts:max-write",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1612,
+          "line": 61,
+          "column": 1
+        },
+        "end": {
+          "byte": 1633,
+          "line": 62,
+          "column": 1
+        },
+        "sha256": "5a1fd218be637643e76d1ffdace71649da53b343fbf9f66ea2e0d2ad96ab6bff"
+      },
+      {
+        "id": "finiteuses:facts:current-write",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1713,
+          "line": 66,
+          "column": 1
+        },
+        "end": {
+          "byte": 1736,
+          "line": 67,
+          "column": 1
+        },
+        "sha256": "0b4e66bf8139c0f0641a7681bc481b05a9ce49cc2886b6dcaf258b0cd11c1609"
+      },
+      {
+        "id": "finiteuses:facts:percent-event",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1736,
+          "line": 67,
+          "column": 1
+        },
+        "end": {
+          "byte": 1812,
+          "line": 68,
+          "column": 1
+        },
+        "sha256": "4ad30a1b2bbb777e173e882756e0dec4c078a57de350eb1b4884019b9f7e9039"
+      },
+      {
+        "id": "finiteuses:facts:guard-nonpositive",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1812,
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "byte": 1842,
+          "line": 69,
+          "column": 1
+        },
+        "sha256": "e410a44e982470a807b9c4ca80269a484b64b5bc77ab9f598945779237da1a9c"
+      },
+      {
+        "id": "finiteuses:facts:clamp",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1842,
+          "line": 69,
+          "column": 1
+        },
+        "end": {
+          "byte": 1867,
+          "line": 70,
+          "column": 1
+        },
+        "sha256": "e0a280163d1828574535293fdf9ad51991b80bf03a3e1ddff7eeab19e83a5c80"
+      },
+      {
+        "id": "finiteuses:facts:guard-finish-nonpositive",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1812,
+          "line": 68,
+          "column": 1
+        },
+        "end": {
+          "byte": 1842,
+          "line": 69,
+          "column": 1
+        },
+        "sha256": "e410a44e982470a807b9c4ca80269a484b64b5bc77ab9f598945779237da1a9c"
+      },
+      {
+        "id": "finiteuses:facts:guard-positive",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1867,
+          "line": 70,
+          "column": 1
+        },
+        "end": {
+          "byte": 1896,
+          "line": 71,
+          "column": 1
+        },
+        "sha256": "3cacdf5501f1c961cdf1a3a2d24500e726a1ea6668365e66695075f413e4a6b4"
+      },
+      {
+        "id": "finiteuses:facts:guard-onfinished",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1932,
+          "line": 72,
+          "column": 1
+        },
+        "end": {
+          "byte": 1966,
+          "line": 73,
+          "column": 1
+        },
+        "sha256": "869d05e31e0e8484f9da34086bfd5f845f70260a86a284f7183bcafea5e33857"
+      },
+      {
+        "id": "finiteuses:facts:finish",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1966,
+          "line": 73,
+          "column": 1
+        },
+        "end": {
+          "byte": 2000,
+          "line": 74,
+          "column": 1
+        },
+        "sha256": "10c1bf8f3fda1643d135020fb5a783a9914b4e40cde4eb59e8e5582235d2ea18"
+      },
+      {
+        "id": "finiteuses:facts:use",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2188,
+          "line": 86,
+          "column": 1
+        },
+        "end": {
+          "byte": 2232,
+          "line": 87,
+          "column": 1
+        },
+        "sha256": "6f0003953a85d4d6bbee437afa7e1659fd47a6d9cc8635299dafec475e1a8778"
+      },
+      {
+        "id": "finiteuses:facts:guard-consumption",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2626,
+          "line": 103,
+          "column": 1
+        },
+        "end": {
+          "byte": 2650,
+          "line": 104,
+          "column": 1
+        },
+        "sha256": "6d9cec1ee8e65e85b6c9031e96099d4939b63fc6aabe921f431bb168b93cc684"
+      },
+      {
+        "id": "finiteuses:facts:efficientuser",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2650,
+          "line": 104,
+          "column": 1
+        },
+        "end": {
+          "byte": 2732,
+          "line": 105,
+          "column": 1
+        },
+        "sha256": "b38906f6f06680525fe993bedebe06bd8e72d8be7f99cb2782bf0afe144e3e4d"
+      },
+      {
+        "id": "finiteuses:facts:guard-mult-consumption",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2626,
+          "line": 103,
+          "column": 1
+        },
+        "end": {
+          "byte": 2650,
+          "line": 104,
+          "column": 1
+        },
+        "sha256": "6d9cec1ee8e65e85b6c9031e96099d4939b63fc6aabe921f431bb168b93cc684"
+      },
+      {
+        "id": "finiteuses:facts:guard-valid-doer",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2650,
+          "line": 104,
+          "column": 1
+        },
+        "end": {
+          "byte": 2732,
+          "line": 105,
+          "column": 1
+        },
+        "sha256": "b38906f6f06680525fe993bedebe06bd8e72d8be7f99cb2782bf0afe144e3e4d"
+      },
+      {
+        "id": "finiteuses:facts:efficientuser-multiplier",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2732,
+          "line": 105,
+          "column": 1
+        },
+        "end": {
+          "byte": 2808,
+          "line": 106,
+          "column": 1
+        },
+        "sha256": "03e7ac956244206350ad9f20e8154c7a0465618a8c26271ef3a380011879e1fd"
+      },
+      {
+        "id": "finiteuses:facts:guard-modify-consumption",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2626,
+          "line": 103,
+          "column": 1
+        },
+        "end": {
+          "byte": 2650,
+          "line": 104,
+          "column": 1
+        },
+        "sha256": "6d9cec1ee8e65e85b6c9031e96099d4939b63fc6aabe921f431bb168b93cc684"
+      },
+      {
+        "id": "finiteuses:facts:guard-modifier",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2815,
+          "line": 108,
+          "column": 1
+        },
+        "end": {
+          "byte": 2857,
+          "line": 109,
+          "column": 1
+        },
+        "sha256": "df20fa96baab7eb78a17a68bf74f559141006e9c3d6d241e9784417d9e8d6778"
+      },
+      {
+        "id": "finiteuses:facts:modify",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2857,
+          "line": 109,
+          "column": 1
+        },
+        "end": {
+          "byte": 2941,
+          "line": 110,
+          "column": 1
+        },
+        "sha256": "20a659f1ae0f8f0049632f06a8a159360836f7aa043f5e00e36326a98e7972c7"
+      },
+      {
+        "id": "finiteuses:facts:guard-dirty",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1353,
+          "line": 49,
+          "column": 1
+        },
+        "end": {
+          "byte": 1417,
+          "line": 50,
+          "column": 1
+        },
+        "sha256": "6e648ce0c1ae2680eb152ed75814f4103d67f044e642d05457f2231c4b81e71b"
+      },
+      {
+        "id": "finiteuses:facts:save-data",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1417,
+          "line": 50,
+          "column": 1
+        },
+        "end": {
+          "byte": 1456,
+          "line": 51,
+          "column": 1
+        },
+        "sha256": "e60220060e6f8a3c59715023581492b995b25f2d8b63cf593696f8aa2bc4ef4d"
+      },
+      {
+        "id": "finiteuses:facts:guard-clean",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1353,
+          "line": 49,
+          "column": 1
+        },
+        "end": {
+          "byte": 1417,
+          "line": 50,
+          "column": 1
+        },
+        "sha256": "6e648ce0c1ae2680eb152ed75814f4103d67f044e642d05457f2231c4b81e71b"
+      },
+      {
+        "id": "finiteuses:facts:fallthrough",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1464,
+          "line": 52,
+          "column": 1
+        },
+        "end": {
+          "byte": 1468,
+          "line": 53,
+          "column": 1
+        },
+        "sha256": "48332fe667bc51ac4a51ba0efe734441c90def55c60a26d7db275ecbbcf42f15"
+      }
+    ],
+    "symbols": [
+      {
+        "id": "components/finiteuses.lua#module/class:FiniteUses",
+        "kind": "class",
+        "name": "FiniteUses",
+        "scope": "module",
+        "owner_id": null,
+        "anchor_id": "finiteuses:facts:symbol-FiniteUses",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": "nil"
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/constructor:new",
+        "kind": "constructor",
+        "name": "new",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-new",
+        "parameters": [
+          {
+            "name": "self",
+            "kind": "named"
+          },
+          {
+            "name": "inst",
+            "kind": "named"
+          }
+        ],
+        "calling": "plain",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/field:total",
+        "kind": "field",
+        "name": "total",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-total",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/field:current",
+        "kind": "field",
+        "name": "current",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-current",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/field:modifyuseconsumption",
+        "kind": "field",
+        "name": "modifyuseconsumption",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-modifyuseconsumption",
+        "parameters": [],
+        "calling": "none",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#module/function:onfiniteuses",
+        "kind": "function",
+        "name": "onfiniteuses",
+        "scope": "module",
+        "owner_id": null,
+        "anchor_id": "finiteuses:facts:symbol-onfiniteuses",
+        "parameters": [
+          {
+            "name": "self",
+            "kind": "named"
+          }
+        ],
+        "calling": "plain",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/method:SetMaxUses",
+        "kind": "method",
+        "name": "SetMaxUses",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-SetMaxUses",
+        "parameters": [
+          {
+            "name": "val",
+            "kind": "named"
+          }
+        ],
+        "calling": "colon",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+        "kind": "method",
+        "name": "SetUses",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-SetUses",
+        "parameters": [
+          {
+            "name": "val",
+            "kind": "named"
+          }
+        ],
+        "calling": "colon",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/method:Use",
+        "kind": "method",
+        "name": "Use",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-Use",
+        "parameters": [
+          {
+            "name": "num",
+            "kind": "named"
+          }
+        ],
+        "calling": "colon",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+        "kind": "method",
+        "name": "OnUsedAsItem",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-OnUsedAsItem",
+        "parameters": [
+          {
+            "name": "action",
+            "kind": "named"
+          },
+          {
+            "name": "doer",
+            "kind": "named"
+          },
+          {
+            "name": "target",
+            "kind": "named"
+          }
+        ],
+        "calling": "colon",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/method:OnSave",
+        "kind": "method",
+        "name": "OnSave",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-OnSave",
+        "parameters": [],
+        "calling": "colon",
+        "base_expression": null
+      },
+      {
+        "id": "components/finiteuses.lua#FiniteUses/method:OnRemoveFromEntity",
+        "kind": "method",
+        "name": "OnRemoveFromEntity",
+        "scope": "FiniteUses",
+        "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:symbol-OnRemoveFromEntity",
+        "parameters": [],
+        "calling": "colon",
+        "base_expression": null
+      }
+    ],
+    "records": [
+      {
+        "id": "finiteuses:fact:total-default",
+        "kind": "assignment",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/constructor:new",
+        "anchor_id": "finiteuses:facts:total-default",
+        "guards": [],
+        "data": {
+          "target": "self.total",
+          "expression": "100",
+          "literal_kind": "number"
+        }
+      },
+      {
+        "id": "finiteuses:fact:current-default",
+        "kind": "assignment",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/constructor:new",
+        "anchor_id": "finiteuses:facts:current-default",
+        "guards": [],
+        "data": {
+          "target": "self.current",
+          "expression": "100",
+          "literal_kind": "number"
+        }
+      },
+      {
+        "id": "finiteuses:fact:current-property",
+        "kind": "property_callback",
+        "subject_symbol_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:current-property",
+        "guards": [],
+        "data": {
+          "field_symbol_id": "components/finiteuses.lua#FiniteUses/field:current",
+          "callback_expression": "onfiniteuses",
+          "resolution": {
+            "state": "resolved",
+            "symbol_id": "components/finiteuses.lua#module/function:onfiniteuses",
+            "candidates": [],
+            "reason": null
+          }
+        }
+      },
+      {
+        "id": "finiteuses:fact:total-property",
+        "kind": "property_callback",
+        "subject_symbol_id": "components/finiteuses.lua#module/class:FiniteUses",
+        "anchor_id": "finiteuses:facts:total-property",
+        "guards": [],
+        "data": {
+          "field_symbol_id": "components/finiteuses.lua#FiniteUses/field:total",
+          "callback_expression": "onfiniteuses",
+          "resolution": {
+            "state": "resolved",
+            "symbol_id": "components/finiteuses.lua#module/function:onfiniteuses",
+            "candidates": [],
+            "reason": null
+          }
+        }
+      },
+      {
+        "id": "finiteuses:fact:repairable",
+        "kind": "component_access",
+        "subject_symbol_id": "components/finiteuses.lua#module/function:onfiniteuses",
+        "anchor_id": "finiteuses:facts:repairable",
+        "guards": [],
+        "data": {
+          "receiver": "self.inst",
+          "name_expression": "repairable",
+          "literal_name": "repairable",
+          "operation": "read"
+        }
+      },
+      {
+        "id": "finiteuses:fact:repairable-update",
+        "kind": "call",
+        "subject_symbol_id": "components/finiteuses.lua#module/function:onfiniteuses",
+        "anchor_id": "finiteuses:facts:repairable-update",
+        "guards": [
+          {
+            "expression": "repairable",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-repairable"
+          }
+        ],
+        "data": {
+          "receiver": "repairable",
+          "callee": "SetFiniteUsesRepairable",
+          "arguments": [
+            "self.current < self.total"
+          ],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      },
+      {
+        "id": "finiteuses:fact:max-write",
+        "kind": "assignment",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:SetMaxUses",
+        "anchor_id": "finiteuses:facts:max-write",
+        "guards": [],
+        "data": {
+          "target": "self.total",
+          "expression": "val",
+          "literal_kind": "nonliteral"
+        }
+      },
+      {
+        "id": "finiteuses:fact:current-write",
+        "kind": "assignment",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+        "anchor_id": "finiteuses:facts:current-write",
+        "guards": [],
+        "data": {
+          "target": "self.current",
+          "expression": "val",
+          "literal_kind": "nonliteral"
+        }
+      },
+      {
+        "id": "finiteuses:fact:percent-event",
+        "kind": "event_emit",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+        "anchor_id": "finiteuses:facts:percent-event",
+        "guards": [],
+        "data": {
+          "receiver": "self.inst",
+          "name_expression": "\"percentusedchange\"",
+          "literal_name": "percentusedchange",
+          "payload_expression": "{percent = self:GetPercent()}",
+          "callback_expression": null
+        }
+      },
+      {
+        "id": "finiteuses:fact:clamp",
+        "kind": "assignment",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+        "anchor_id": "finiteuses:facts:clamp",
+        "guards": [
+          {
+            "expression": "self.current <= 0",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-nonpositive"
+          }
+        ],
+        "data": {
+          "target": "self.current",
+          "expression": "0",
+          "literal_kind": "number"
+        }
+      },
+      {
+        "id": "finiteuses:fact:finish",
+        "kind": "call",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+        "anchor_id": "finiteuses:facts:finish",
+        "guards": [
+          {
+            "expression": "self.current <= 0",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-finish-nonpositive"
+          },
+          {
+            "expression": "was_positive",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-positive"
+          },
+          {
+            "expression": "self.onfinished ~= nil",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-onfinished"
+          }
+        ],
+        "data": {
+          "receiver": null,
+          "callee": "self.onfinished",
+          "arguments": [
+            "self.inst"
+          ],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      },
+      {
+        "id": "finiteuses:fact:use",
+        "kind": "call",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:Use",
+        "anchor_id": "finiteuses:facts:use",
+        "guards": [],
+        "data": {
+          "receiver": "self",
+          "callee": "SetUses",
+          "arguments": [
+            "self.current - (num or 1)"
+          ],
+          "resolution": {
+            "state": "resolved",
+            "symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+            "candidates": [],
+            "reason": null
+          }
+        }
+      },
+      {
+        "id": "finiteuses:fact:efficientuser",
+        "kind": "component_access",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+        "anchor_id": "finiteuses:facts:efficientuser",
+        "guards": [
+          {
+            "expression": "uses ~= nil",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-consumption"
+          }
+        ],
+        "data": {
+          "receiver": "doer",
+          "name_expression": "efficientuser",
+          "literal_name": "efficientuser",
+          "operation": "read"
+        }
+      },
+      {
+        "id": "finiteuses:fact:efficientuser-multiplier",
+        "kind": "call",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+        "anchor_id": "finiteuses:facts:efficientuser-multiplier",
+        "guards": [
+          {
+            "expression": "uses ~= nil",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-mult-consumption"
+          },
+          {
+            "expression": "doer ~= nil and doer:IsValid() and doer.components.efficientuser ~= nil",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-valid-doer"
+          }
+        ],
+        "data": {
+          "receiver": "doer.components.efficientuser",
+          "callee": "GetMultiplier",
+          "arguments": [
+            "action"
+          ],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      },
+      {
+        "id": "finiteuses:fact:modify",
+        "kind": "call",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+        "anchor_id": "finiteuses:facts:modify",
+        "guards": [
+          {
+            "expression": "uses ~= nil",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-modify-consumption"
+          },
+          {
+            "expression": "self.modifyuseconsumption",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-modifier"
+          }
+        ],
+        "data": {
+          "receiver": null,
+          "callee": "self.modifyuseconsumption",
+          "arguments": [
+            "uses",
+            "action",
+            "doer",
+            "target",
+            "self.inst"
+          ],
+          "resolution": {
+            "state": "unresolved",
+            "symbol_id": null,
+            "candidates": [],
+            "reason": "动态回调或外部对象，未确定唯一目标。"
+          }
+        }
+      },
+      {
+        "id": "finiteuses:fact:save-data",
+        "kind": "return",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:OnSave",
+        "anchor_id": "finiteuses:facts:save-data",
+        "guards": [
+          {
+            "expression": "self.current ~= self.total or self.doesnotstartfull",
+            "branch": "then",
+            "anchor_id": "finiteuses:facts:guard-dirty"
+          }
+        ],
+        "data": {
+          "expressions": [
+            "{ uses = self.current }"
+          ],
+          "implicit": false
+        }
+      },
+      {
+        "id": "finiteuses:fact:fallthrough",
+        "kind": "return",
+        "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:OnSave",
+        "anchor_id": "finiteuses:facts:fallthrough",
+        "guards": [
+          {
+            "expression": "self.current ~= self.total or self.doesnotstartfull",
+            "branch": "else",
+            "anchor_id": "finiteuses:facts:guard-clean"
+          }
+        ],
+        "data": {
+          "expressions": [],
+          "implicit": true
+        }
+      }
+    ]
+  },
+  "candidates": {
+    "format_version": "1.0.0",
+    "kind": "candidates",
+    "source_id": "lsp-dst",
+    "target_file": "components/finiteuses.lua",
+    "anchors": [
+      {
+        "id": "finiteuses:candidates:current",
+        "source_id": "lsp-dst",
+        "path": "scripts/components/members/finiteuses.lua",
+        "start": {
+          "byte": 84,
+          "line": 5,
+          "column": 1
+        },
+        "end": {
+          "byte": 110,
+          "line": 6,
+          "column": 1
+        },
+        "sha256": "2fc158de0d0055755676435f864475d7ce4fc18dfd54255686426fa30cc4dbcb"
+      },
+      {
+        "id": "finiteuses:candidates:num",
+        "source_id": "lsp-dst",
+        "path": "scripts/components/members/finiteuses.lua",
+        "start": {
+          "byte": 2455,
+          "line": 86,
+          "column": 1
+        },
+        "end": {
+          "byte": 2511,
+          "line": 87,
+          "column": 1
+        },
+        "sha256": "fda54512cd6c30c3538ecf500a202f5571cc4b86feb59e6b59ea1ebfba60368b"
+      },
+      {
+        "id": "finiteuses:candidates:modifier",
+        "source_id": "lsp-dst",
+        "path": "scripts/components/members/finiteuses.lua",
+        "start": {
+          "byte": 1877,
+          "line": 65,
+          "column": 1
+        },
+        "end": {
+          "byte": 1943,
+          "line": 66,
+          "column": 1
+        },
+        "sha256": "9b6b59c56daefa589f59f8f9ca3c0d136cce454baa7bbd677d70d8cd8897c53d"
+      }
+    ],
+    "claims": [
+      {
+        "id": "lsp-dst:finiteuses:current",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/field:current",
+          "facet": "field:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "anchor_id": "finiteuses:candidates:current"
+      },
+      {
+        "id": "lsp-dst:finiteuses:num",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:Use",
+          "facet": "param:num:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "anchor_id": "finiteuses:candidates:num"
+      },
+      {
+        "id": "lsp-dst:finiteuses:modifier",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/field:modifyuseconsumption",
+          "facet": "field:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "fun(uses: number, action: idk, doer: ent|nil, target: ent|nil, inst: ent): number"
+        },
+        "anchor_id": "finiteuses:candidates:modifier"
+      }
+    ]
+  },
+  "reviews": {
+    "format_version": "1.0.0",
+    "kind": "reviews",
+    "target_file": "components/finiteuses.lua",
+    "anchors": [
+      {
+        "id": "finiteuses:reviews:current-arithmetic",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1638,
+          "line": 64,
+          "column": 1
+        },
+        "end": {
+          "byte": 1867,
+          "line": 70,
+          "column": 1
+        },
+        "sha256": "fbf401bc51c1beac8589560b9c500dcd8081867a8f1c46fee64e5fb151a39de2"
+      },
+      {
+        "id": "finiteuses:reviews:use-arithmetic",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2159,
+          "line": 85,
+          "column": 1
+        },
+        "end": {
+          "byte": 2236,
+          "line": 88,
+          "column": 1
+        },
+        "sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0"
+      },
+      {
+        "id": "finiteuses:reviews:num-arithmetic",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2159,
+          "line": 85,
+          "column": 1
+        },
+        "end": {
+          "byte": 2236,
+          "line": 88,
+          "column": 1
+        },
+        "sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0"
+      },
+      {
+        "id": "finiteuses:reviews:num-fallback",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2159,
+          "line": 85,
+          "column": 1
+        },
+        "end": {
+          "byte": 2236,
+          "line": 88,
+          "column": 1
+        },
+        "sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0"
+      },
+      {
+        "id": "finiteuses:reviews:max-write",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1576,
+          "line": 60,
+          "column": 1
+        },
+        "end": {
+          "byte": 1637,
+          "line": 63,
+          "column": 1
+        },
+        "sha256": "bc55a2f94c0711d6bae6ccafcd5c1d75326ac77ab3f9401f24b90959b0367ce6"
+      },
+      {
+        "id": "finiteuses:reviews:property",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 525,
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "byte": 579,
+          "line": 21,
+          "column": 1
+        },
+        "sha256": "864babddc78919f6f5402f16be2320159ffa09199ccbfbe045b8113cde279ea5"
+      },
+      {
+        "id": "finiteuses:reviews:helper",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 0,
+          "line": 1,
+          "column": 1
+        },
+        "end": {
+          "byte": 331,
+          "line": 9,
+          "column": 1
+        },
+        "sha256": "05f02e81451308bf1cdb82d5ae2b51c0892dff12939756c0b84f43268c8a91b7"
+      },
+      {
+        "id": "finiteuses:reviews:class",
+        "source_id": "dst",
+        "path": "class.lua",
+        "start": {
+          "byte": 625,
+          "line": 36,
+          "column": 1
+        },
+        "end": {
+          "byte": 824,
+          "line": 46,
+          "column": 1
+        },
+        "sha256": "3fd402f452b7c22a86ebdc3a047f830b3ee359dc8be945ebab76e05dbac888b7"
+      },
+      {
+        "id": "finiteuses:reviews:uses-order",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1638,
+          "line": 64,
+          "column": 1
+        },
+        "end": {
+          "byte": 2099,
+          "line": 80,
+          "column": 1
+        },
+        "sha256": "5227cb2c8801d28b5d3da3da2436bc1ed41f0ee84e907919618cd26f38822e68"
+      },
+      {
+        "id": "finiteuses:reviews:modifier-context",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2529,
+          "line": 101,
+          "column": 1
+        },
+        "end": {
+          "byte": 2989,
+          "line": 115,
+          "column": 1
+        },
+        "sha256": "2620d82d7f8d8b34798007a47b89fa2d5f8a5fe2c0ed572a6869b568ef3310b9"
+      },
+      {
+        "id": "finiteuses:reviews:remove-hook",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 583,
+          "line": 23,
+          "column": 1
+        },
+        "end": {
+          "byte": 665,
+          "line": 26,
+          "column": 1
+        },
+        "sha256": "5fa970a1fdb820ecf9b67ba4fdb2a86d4e3b97948a3195afc65448a243973895"
+      },
+      {
+        "id": "finiteuses:reviews:host",
+        "source_id": "dst",
+        "path": "entityscript.lua",
+        "start": {
+          "byte": 18200,
+          "line": 648,
+          "column": 1
+        },
+        "end": {
+          "byte": 18669,
+          "line": 664,
+          "column": 1
+        },
+        "sha256": "4ab9b92f13c0aca2be8fc4f8f3e7dfd870aab2ce32ead044b2db0d5001736699"
+      },
+      {
+        "id": "finiteuses:reviews:summary-0",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 332,
+          "line": 10,
+          "column": 1
+        },
+        "end": {
+          "byte": 582,
+          "line": 22,
+          "column": 1
+        },
+        "sha256": "0a813b19e8488ab4e7f55b9e750868bf7d5b4a4c4c4dbbccb9f2fa68cdeba674"
+      },
+      {
+        "id": "finiteuses:reviews:summary-1",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1638,
+          "line": 64,
+          "column": 1
+        },
+        "end": {
+          "byte": 2236,
+          "line": 88,
+          "column": 1
+        },
+        "sha256": "6ebe9ca78072b60bde7d555b3c08339b7047b2752cb6628db874400ef4215669"
+      },
+      {
+        "id": "finiteuses:reviews:summary-2",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2529,
+          "line": 101,
+          "column": 1
+        },
+        "end": {
+          "byte": 2989,
+          "line": 115,
+          "column": 1
+        },
+        "sha256": "2620d82d7f8d8b34798007a47b89fa2d5f8a5fe2c0ed572a6869b568ef3310b9"
+      },
+      {
+        "id": "finiteuses:reviews:save-return",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 1324,
+          "line": 48,
+          "column": 1
+        },
+        "end": {
+          "byte": 1468,
+          "line": 53,
+          "column": 1
+        },
+        "sha256": "c19d2696de6d232fe34c2b1c6f5d99ac77d2a5fbf4a803d3d1d6367d32d50ebd"
+      },
+      {
+        "id": "finiteuses:reviews:return-numeric",
+        "source_id": "dst",
+        "path": "components/finiteuses.lua",
+        "start": {
+          "byte": 2159,
+          "line": 85,
+          "column": 1
+        },
+        "end": {
+          "byte": 2236,
+          "line": 88,
+          "column": 1
+        },
+        "sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0"
+      },
+      {
+        "id": "finiteuses:reviews:class-properties",
+        "source_id": "dst",
+        "path": "class.lua",
+        "start": {
+          "byte": 1611,
+          "line": 83,
+          "column": 1
+        },
+        "end": {
+          "byte": 2523,
+          "line": 111,
+          "column": 1
+        },
+        "sha256": "2f0bfb5ab9a454e5ef4cf7d8dbf889379d30cbf1426b6af84dae3ed939f51135"
+      },
+      {
+        "id": "finiteuses:reviews:class-construction",
+        "source_id": "dst",
+        "path": "class.lua",
+        "start": {
+          "byte": 4492,
+          "line": 181,
+          "column": 1
+        },
+        "end": {
+          "byte": 4761,
+          "line": 196,
+          "column": 1
+        },
+        "sha256": "a2d5b4530c9d803a62e5fa6f1cde13526a3302283672df9dc700c3c0d42b6abf"
+      }
+    ],
+    "entries": [
+      {
+        "id": "finiteuses:review:current",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/field:current",
+          "facet": "field:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [
+          "lsp-dst:finiteuses:current"
+        ],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "常规有限次数组件数值输入约定；算术使用提供依据，不证明所有模组写入永远是该类型。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:current-arithmetic",
+            "expected_sha256": "fbf401bc51c1beac8589560b9c500dcd8081867a8f1c46fee64e5fb151a39de2",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:use-arithmetic",
+            "expected_sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "finiteuses:review:num",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:Use",
+          "facet": "param:num:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [
+          "lsp-dst:finiteuses:num"
+        ],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "常规有限次数组件数值输入约定；算术使用提供依据，不证明所有模组写入永远是该类型。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:num-arithmetic",
+            "expected_sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "finiteuses:review:num-optional",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:Use",
+          "facet": "param:num:optional"
+        },
+        "value": {
+          "kind": "optional",
+          "accepts_omitted": true,
+          "accepts_nil": true
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:num-fallback",
+            "expected_sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "缺省或 nil 使用 1；false 也触发 or，但不因此采纳为建议输入类型。"
+      },
+      {
+        "id": "finiteuses:review:max",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:SetMaxUses",
+          "facet": "behavior:changes-total"
+        },
+        "value": {
+          "kind": "text",
+          "text": "SetMaxUses 赋值 total，不直接把 current 设满；total 的 Class 属性回调会同步修理状态。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:max-write",
+            "expected_sha256": "bc55a2f94c0711d6bae6ccafcd5c1d75326ac77ab3f9401f24b90959b0367ce6",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:property",
+            "expected_sha256": "864babddc78919f6f5402f16be2320159ffa09199ccbfbe045b8113cde279ea5",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:helper",
+            "expected_sha256": "05f02e81451308bf1cdb82d5ae2b51c0892dff12939756c0b84f43268c8a91b7",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:class",
+            "expected_sha256": "3fd402f452b7c22a86ebdc3a047f830b3ee359dc8be945ebab76e05dbac888b7",
+            "role": "property-mechanism"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:class-properties",
+            "expected_sha256": "2f0bfb5ab9a454e5ef4cf7d8dbf889379d30cbf1426b6af84dae3ed939f51135",
+            "role": "property-mechanism"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:class-construction",
+            "expected_sha256": "a2d5b4530c9d803a62e5fa6f1cde13526a3302283672df9dc700c3c0d42b6abf",
+            "role": "property-mechanism"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "finiteuses:review:order",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+          "facet": "behavior:event-order"
+        },
+        "value": {
+          "kind": "text",
+          "text": "先写 current 并发出 percentusedchange，再把非正 current 归零；原先为正才标记 usesdepleted 并调用 onfinished。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:uses-order",
+            "expected_sha256": "5227cb2c8801d28b5d3da3da2436bc1ed41f0ee84e907919618cd26f38822e68",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "按源码顺序描述，不推断监听器是否进一步修改状态。"
+      },
+      {
+        "id": "finiteuses:review:modifier-context",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+          "facet": "behavior:modifier-context"
+        },
+        "value": {
+          "kind": "text",
+          "text": "动作有消耗配置时，先按有效 doer 的可选 efficientuser 修正，再调用 modifyuseconsumption(uses, action, doer, target, self.inst)，最后消耗次数。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:modifier-context",
+            "expected_sha256": "2620d82d7f8d8b34798007a47b89fa2d5f8a5fe2c0ed572a6869b568ef3310b9",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "finiteuses:review:remove",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:OnRemoveFromEntity",
+          "facet": "behavior:component-removal"
+        },
+        "value": {
+          "kind": "text",
+          "text": "EntityScript 移除组件时分派 OnRemoveFromEntity；本方法移除 usesdepleted 标签。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:remove-hook",
+            "expected_sha256": "5fa970a1fdb820ecf9b67ba4fdb2a86d4e3b97948a3195afc65448a243973895",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:host",
+            "expected_sha256": "4ab9b92f13c0aca2be8fc4f8f3e7dfd870aab2ce32ead044b2db0d5001736699",
+            "role": "host-dispatch"
+          }
+        ],
+        "runtime": [],
+        "note": "逐项读取实现核验，运行验证另记。"
+      },
+      {
+        "id": "finiteuses:review:modifier-pending",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/field:modifyuseconsumption",
+          "facet": "field:type"
+        },
+        "value": {
+          "kind": "type",
+          "expression": "fun(uses: number, action: idk, doer: ent|nil, target: ent|nil, inst: ent): number"
+        },
+        "state": "pending",
+        "verdict": "accept",
+        "candidate_ids": [
+          "lsp-dst:finiteuses:modifier"
+        ],
+        "reviewed_snapshot_id": null,
+        "reviewer": "AI/source-review",
+        "reviewed_at": null,
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [],
+        "runtime": [],
+        "note": "外部类型含 idk / ent；本样例只核验参数传递，尚未建立依赖类型契约。"
+      },
+      {
+        "id": "finiteuses:review:summary",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#module/class:FiniteUses",
+          "facet": "summary"
+        },
+        "value": {
+          "kind": "text",
+          "text": "维护物品可用次数、按动作消耗配置及耗尽回调。"
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:summary-0",
+            "expected_sha256": "0a813b19e8488ab4e7f55b9e750868bf7d5b4a4c4c4dbbccb9f2fa68cdeba674",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:summary-1",
+            "expected_sha256": "6ebe9ca78072b60bde7d555b3c08339b7047b2752cb6628db874400ef4215669",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:summary-2",
+            "expected_sha256": "2620d82d7f8d8b34798007a47b89fa2d5f8a5fe2c0ed572a6869b568ef3310b9",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "短索引职责摘要来自所列源码区间。"
+      },
+      {
+        "id": "finiteuses:review:save-returns",
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:OnSave",
+          "facet": "returns"
+        },
+        "value": {
+          "kind": "returns",
+          "slots": [
+            {
+              "type": "{ uses: number }"
+            }
+          ],
+          "variadic": null,
+          "can_fall_through": true
+        },
+        "state": "verified",
+        "verdict": "accept",
+        "candidate_ids": [],
+        "reviewed_snapshot_id": "dst-steam-25643519",
+        "reviewer": "AI/source-review",
+        "reviewed_at": "2026-10-10",
+        "scope": "本快照源码实现；未执行游戏运行验证。",
+        "evidence": [
+          {
+            "anchor_id": "finiteuses:reviews:save-return",
+            "expected_sha256": "c19d2696de6d232fe34c2b1c6f5d99ac77d2a5fbf4a803d3d1d6367d32d50ebd",
+            "role": "implementation"
+          },
+          {
+            "anchor_id": "finiteuses:reviews:return-numeric",
+            "expected_sha256": "51d3aaac49e769dabe2cf251a2c9ea8b8f9e452311237de9c0a5d50e4fe853c0",
+            "role": "implementation"
+          }
+        ],
+        "runtime": [],
+        "note": "显式分支返回 uses 表；其他路径无显式返回。slots 表示返回分支槽位，fall-through 独立保留。数值约定不证明所有模组写入。"
+      }
+    ]
+  },
+  "projection_checks": {
+    "index_symbol_ids": [
+      "components/finiteuses.lua#FiniteUses/method:Use",
+      "components/finiteuses.lua#FiniteUses/method:SetMaxUses",
+      "components/finiteuses.lua#FiniteUses/method:SetUses",
+      "components/finiteuses.lua#module/class:FiniteUses"
+    ],
+    "luacats_review_ids": [
+      "finiteuses:review:current",
+      "finiteuses:review:num",
+      "finiteuses:review:num-optional",
+      "finiteuses:review:save-returns"
+    ],
+    "wiki_review_ids": [
+      "finiteuses:review:max",
+      "finiteuses:review:order",
+      "finiteuses:review:modifier-context",
+      "finiteuses:review:remove",
+      "finiteuses:review:summary"
+    ],
+    "excluded_candidate_ids": [
+      "lsp-dst:finiteuses:modifier"
+    ]
+  },
+  "resolved": {
+    "format_version": "1.0.0",
+    "kind": "resolved",
+    "snapshot_id": "dst-steam-25643519",
+    "input_sha256": {
+      "manifest": "9d6bd28d41b68743c4c9a0c6d35893ab85b45fd6dc37cd0cf38d1025e906103a",
+      "facts": "bec3d0753c2f3bbf0fb435bf25a2202d1feb9f102d84eedae2a1fde1387173c6",
+      "candidates": "64ea9ace31bd1587eabdfb48f7c332b1c95463d58e906fa7113e64dffb55ac1d",
+      "reviews": "f0fb0a78d2dba593ae72f16cf754989a0d52e9035eef15d47c94d09ffef1eb41"
+    },
+    "coverage": {
+      "status": "partial",
+      "selection": {
+        "symbols": [
+          "components/finiteuses.lua#module/class:FiniteUses",
+          "components/finiteuses.lua#FiniteUses/constructor:new",
+          "components/finiteuses.lua#FiniteUses/field:total",
+          "components/finiteuses.lua#FiniteUses/field:current",
+          "components/finiteuses.lua#FiniteUses/field:modifyuseconsumption",
+          "components/finiteuses.lua#module/function:onfiniteuses",
+          "components/finiteuses.lua#FiniteUses/method:SetMaxUses",
+          "components/finiteuses.lua#FiniteUses/method:SetUses",
+          "components/finiteuses.lua#FiniteUses/method:Use",
+          "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+          "components/finiteuses.lua#FiniteUses/method:OnSave",
+          "components/finiteuses.lua#FiniteUses/method:OnRemoveFromEntity"
+        ],
+        "record_kinds": [
+          "assignment",
+          "call",
+          "component_access",
+          "event_emit",
+          "property_callback",
+          "return"
+        ],
+        "description": "人工选择的关键符号与语法观察；不承诺全文或所列方法全部语句覆盖。"
+      },
+      "truncated": false,
+      "diagnostics": [
+        {
+          "code": "MANUAL_REFERENCE_SUBSET",
+          "severity": "info",
+          "message": "W01 手工参考数据，不是 Full Moon 提取输出。",
+          "anchor_id": null
+        }
+      ]
+    },
+    "records": [
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/field:current",
+          "facet": "field:type"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "selected_review_ids": [
+          "finiteuses:review:current"
+        ],
+        "candidate_ids": [
+          "lsp-dst:finiteuses:current"
+        ],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/field:modifyuseconsumption",
+          "facet": "field:type"
+        },
+        "status": "unknown",
+        "value": null,
+        "selected_review_ids": [],
+        "candidate_ids": [
+          "lsp-dst:finiteuses:modifier"
+        ],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "No current verified acceptance."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:OnRemoveFromEntity",
+          "facet": "behavior:component-removal"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "EntityScript 移除组件时分派 OnRemoveFromEntity；本方法移除 usesdepleted 标签。"
+        },
+        "selected_review_ids": [
+          "finiteuses:review:remove"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:OnSave",
+          "facet": "returns"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "returns",
+          "slots": [
+            {
+              "type": "{ uses: number }"
+            }
+          ],
+          "variadic": null,
+          "can_fall_through": true
+        },
+        "selected_review_ids": [
+          "finiteuses:review:save-returns"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+          "facet": "behavior:modifier-context"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "动作有消耗配置时，先按有效 doer 的可选 efficientuser 修正，再调用 modifyuseconsumption(uses, action, doer, target, self.inst)，最后消耗次数。"
+        },
+        "selected_review_ids": [
+          "finiteuses:review:modifier-context"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:SetMaxUses",
+          "facet": "behavior:changes-total"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "SetMaxUses 赋值 total，不直接把 current 设满；total 的 Class 属性回调会同步修理状态。"
+        },
+        "selected_review_ids": [
+          "finiteuses:review:max"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+          "facet": "behavior:event-order"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "先写 current 并发出 percentusedchange，再把非正 current 归零；原先为正才标记 usesdepleted 并调用 onfinished。"
+        },
+        "selected_review_ids": [
+          "finiteuses:review:order"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:Use",
+          "facet": "param:num:optional"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "optional",
+          "accepts_omitted": true,
+          "accepts_nil": true
+        },
+        "selected_review_ids": [
+          "finiteuses:review:num-optional"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#FiniteUses/method:Use",
+          "facet": "param:num:type"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "type",
+          "expression": "number"
+        },
+        "selected_review_ids": [
+          "finiteuses:review:num"
+        ],
+        "candidate_ids": [
+          "lsp-dst:finiteuses:num"
+        ],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      },
+      {
+        "target": {
+          "symbol_id": "components/finiteuses.lua#module/class:FiniteUses",
+          "facet": "summary"
+        },
+        "status": "verified",
+        "value": {
+          "kind": "text",
+          "text": "维护物品可用次数、按动作消耗配置及耗尽回调。"
+        },
+        "selected_review_ids": [
+          "finiteuses:review:summary"
+        ],
+        "candidate_ids": [],
+        "rejected_candidate_ids": [],
+        "conflict_ids": [],
+        "note": "Current source-reviewed value; runtime validation is separate."
+      }
+    ],
+    "conflicts": []
+  }
+}
