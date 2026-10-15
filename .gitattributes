@@ -1,0 +1,3 @@
+# Preserve extraction-fixture byte positions and deliberate CRLF across checkouts.
+scripts/tests/fixtures/extraction/*.lua -text
+scripts/tests/fixtures/extraction/utf8-crlf.lua whitespace=cr-at-eol

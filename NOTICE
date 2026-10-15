@@ -1,0 +1,24 @@
+# 授权与第三方声明
+
+本仓原创代码（`scripts/fullmoon-dst/`、`scripts/tools/`、`scripts/schemas/`、`scripts/tests/`、文档与规则）
+采用 **GNU Affero General Public License v3.0 或更新版本**（`AGPL-3.0-or-later`），全文见 [LICENSE](LICENSE)。
+
+Copyright (c) 2026 DST Wiki contributors
+
+## 第三方组件
+
+| 组件 | 授权 | 在本仓的使用方式 |
+|---|---|---|
+| [`full_moon`](https://github.com/Kampfkarren/full-moon) 3.0.0 | MPL-2.0 | Rust 依赖，未修改。按 MPL-2.0 第 3.3 节可与 GPLv3 系许可组合分发，其源文件仍受 MPL-2.0 约束 |
+| [`lsp-dst`](https://github.com/b1inkie/lsp-dst)（上游） | MIT No Attribution (MIT-0) | 只跟踪 fork 的 commit pin（`scripts/vendor/lsp-dst.json`），不包含完整克隆；LuaCATS 声明与正式 reviews 在该 fork 维护 |
+| PyYAML 6.0.3／jsonschema 4.25.1 | MIT | Python 依赖，未修改 |
+| serde_json／sha2 | MIT OR Apache-2.0 | Rust 依赖，未修改 |
+
+## 不受本仓授权覆盖的内容
+
+- **《饥荒联机版》游戏脚本、资源及其衍生片段**：本仓不收录游戏源码，解析输入由使用者在本地准备，
+  始终保留 Klei 的原授权。本仓的 AGPL 授权不延伸、也不能延伸到这些内容。
+- **工具输出**：`facts`、`manifest`、源码索引、LuaCATS 导出、校验报告以及使用本仓工具生成的 Wiki 页，
+  由使用者自行产生，不因运行本仓工具而自动适用 AGPL-3.0-or-later（见 AGPL 第 2 节）。
+  若输出中嵌入了本仓代码或第三方材料，则相应部分仍受其各自授权约束。
+- **`dst-wiki` 知识仓与两个 Skill 包**：分别按其 CC BY-SA 4.0 授权，不是本仓的组成部分。
