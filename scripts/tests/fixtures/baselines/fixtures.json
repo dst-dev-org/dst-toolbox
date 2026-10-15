@@ -1,0 +1,1916 @@
+{
+  "baseline_version": 1,
+  "kind": "synthetic-extraction-baseline",
+  "contract_version": "1.0.0",
+  "mode": "manual-expectations",
+  "parser_executed": false,
+  "root_hint": "scripts/tests/fixtures/extraction",
+  "revision": {
+    "scheme": "fixture",
+    "value": "w02-v1"
+  },
+  "comparison": "required-subset-plus-forbidden",
+  "anchors": [
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 236,
+        "line": 8,
+        "column": 15
+      },
+      "end": {
+        "byte": 262,
+        "line": 8,
+        "column": 41
+      },
+      "sha256": "97343280999e43a40e567f11e0f054f906ea8fb07fe61d9cffc61350d55b963b",
+      "id": "component.lua:baseline:1"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 242,
+        "line": 8,
+        "column": 21
+      },
+      "end": {
+        "byte": 262,
+        "line": 8,
+        "column": 41
+      },
+      "sha256": "2dedbab73ddcae5414835f8d7dce19d646fde8f72eff80a57aa35c78d57e2810",
+      "id": "component.lua:baseline:2"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 77,
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "byte": 220,
+        "line": 6,
+        "column": 4
+      },
+      "sha256": "dd98659c8368ec092b7a9404a7792828fa18ebc05d0eda504eec88dad51a3668",
+      "id": "component.lua:baseline:3"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 288,
+        "line": 10,
+        "column": 5
+      },
+      "end": {
+        "byte": 302,
+        "line": 10,
+        "column": 19
+      },
+      "sha256": "55b3a3fe1772a7756d30f9fa2d9569b3eed86936ec860c08491baf3ed99a89be",
+      "id": "component.lua:baseline:4"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 307,
+        "line": 11,
+        "column": 5
+      },
+      "end": {
+        "byte": 326,
+        "line": 11,
+        "column": 24
+      },
+      "sha256": "4f3964f7b495c207ef26ad10fde4752d11317d1a72920b6809794d943954cf73",
+      "id": "component.lua:baseline:5"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 381,
+        "line": 15,
+        "column": 1
+      },
+      "end": {
+        "byte": 902,
+        "line": 31,
+        "column": 4
+      },
+      "sha256": "4191836f784e16d000e98827fcc58be9a70155159ccd89c63af5d7cefbda8e1e",
+      "id": "component.lua:baseline:6"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 904,
+        "line": 33,
+        "column": 1
+      },
+      "end": {
+        "byte": 962,
+        "line": 35,
+        "column": 4
+      },
+      "sha256": "3853b0edddde81a6993a417a38383b95d3d6f620d95eb89157c8c47b535cda8e",
+      "id": "component.lua:baseline:7"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 964,
+        "line": 37,
+        "column": 1
+      },
+      "end": {
+        "byte": 1002,
+        "line": 37,
+        "column": 39
+      },
+      "sha256": "590472f786bcd0b92cbeab56b5d1e870390cbd62807ccf7712ebfc6f0a066cb2",
+      "id": "component.lua:baseline:8"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 1072,
+        "line": 40,
+        "column": 1
+      },
+      "sha256": "1b0b4775de8444e64cefd8c1219737718dd5ef0ba4e3d762196de865d8c14fa5",
+      "id": "component.lua:baseline:9"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 288,
+        "line": 10,
+        "column": 5
+      },
+      "end": {
+        "byte": 302,
+        "line": 10,
+        "column": 19
+      },
+      "sha256": "55b3a3fe1772a7756d30f9fa2d9569b3eed86936ec860c08491baf3ed99a89be",
+      "id": "component.lua:baseline:10"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 307,
+        "line": 11,
+        "column": 5
+      },
+      "end": {
+        "byte": 326,
+        "line": 11,
+        "column": 24
+      },
+      "sha256": "4f3964f7b495c207ef26ad10fde4752d11317d1a72920b6809794d943954cf73",
+      "id": "component.lua:baseline:11"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 361,
+        "line": 13,
+        "column": 13
+      },
+      "end": {
+        "byte": 376,
+        "line": 13,
+        "column": 28
+      },
+      "sha256": "928c93b500048152acb57a2e6a2971c6dc98a61f70c94400aa560157aeb64bfe",
+      "id": "component.lua:baseline:12"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 169,
+        "line": 4,
+        "column": 9
+      },
+      "end": {
+        "byte": 208,
+        "line": 4,
+        "column": 48
+      },
+      "sha256": "40772d6694dfc3a8ecce09fea17ed3cbb8d680ccd3e4668bef18b6d05ae2f850",
+      "id": "component.lua:baseline:13"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 447,
+        "line": 17,
+        "column": 9
+      },
+      "end": {
+        "byte": 459,
+        "line": 17,
+        "column": 21
+      },
+      "sha256": "19921ccfad14c1deb04f7bda6247bf6ad4abe774de85b6003dea4e6b7774dd5c",
+      "id": "component.lua:baseline:14"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 475,
+        "line": 19,
+        "column": 8
+      },
+      "end": {
+        "byte": 509,
+        "line": 19,
+        "column": 42
+      },
+      "sha256": "889a02a8baf2169a4a5ea60e5bb103f45a7b0e4991761f40e2acedc509def5f2",
+      "id": "component.lua:baseline:15"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 523,
+        "line": 20,
+        "column": 9
+      },
+      "end": {
+        "byte": 564,
+        "line": 20,
+        "column": 50
+      },
+      "sha256": "74766db480d5f85e3e0032359c4e109026c6d18ec0479958fd40ff17f6d0d1e4",
+      "id": "component.lua:baseline:16"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 582,
+        "line": 22,
+        "column": 9
+      },
+      "end": {
+        "byte": 614,
+        "line": 22,
+        "column": 41
+      },
+      "sha256": "1925a55bb9e4e7ff274697b7d3c4ab0bfa7adfb80bf96040dabbfce08cc8e7bc",
+      "id": "component.lua:baseline:17"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 664,
+        "line": 25,
+        "column": 9
+      },
+      "end": {
+        "byte": 701,
+        "line": 25,
+        "column": 46
+      },
+      "sha256": "926ed6b3237bcb5ef816601d4c4a6d42a1c5cead47d3f0f5fd7c6a38ed958717",
+      "id": "component.lua:baseline:18"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 714,
+        "line": 27,
+        "column": 5
+      },
+      "end": {
+        "byte": 773,
+        "line": 27,
+        "column": 64
+      },
+      "sha256": "80d5cd7de1ff343f6b1fe78abb103e08e8e29a3f6bd05327cb06cfb4d18ae424",
+      "id": "component.lua:baseline:19"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 778,
+        "line": 28,
+        "column": 5
+      },
+      "end": {
+        "byte": 830,
+        "line": 28,
+        "column": 57
+      },
+      "sha256": "13300334a0894bcad4b23905ccbacb401bbd19815d391fd178540aba73799d98",
+      "id": "component.lua:baseline:20"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 835,
+        "line": 29,
+        "column": 5
+      },
+      "end": {
+        "byte": 870,
+        "line": 29,
+        "column": 40
+      },
+      "sha256": "4687ef78862ace2a92333ec48ab4934d566af02419a15a5686321e457ad2a241",
+      "id": "component.lua:baseline:21"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 875,
+        "line": 30,
+        "column": 5
+      },
+      "end": {
+        "byte": 898,
+        "line": 30,
+        "column": 28
+      },
+      "sha256": "41cce5e8cfb2381e4f07f8620ce10604f01e317348997f22a25603b9f3ef2d6c",
+      "id": "component.lua:baseline:22"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 964,
+        "line": 37,
+        "column": 1
+      },
+      "end": {
+        "byte": 1002,
+        "line": 37,
+        "column": 39
+      },
+      "sha256": "590472f786bcd0b92cbeab56b5d1e870390cbd62807ccf7712ebfc6f0a066cb2",
+      "id": "component.lua:baseline:23"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 331,
+        "line": 12,
+        "column": 5
+      },
+      "end": {
+        "byte": 348,
+        "line": 12,
+        "column": 22
+      },
+      "sha256": "653077999fa06b2e6ea9761f5495cfafd09d019fd0b0ed2c94dcca4ce937603f",
+      "id": "component.lua:baseline:24"
+    },
+    {
+      "path": "component.lua",
+      "start": {
+        "byte": 1003,
+        "line": 38,
+        "column": 1
+      },
+      "end": {
+        "byte": 1058,
+        "line": 38,
+        "column": 56
+      },
+      "sha256": "944ee91834c455f487440564c7215d13c9ff5e2fbf6a8284386722f732053025",
+      "id": "component.lua:baseline:25"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 70,
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "byte": 242,
+        "line": 9,
+        "column": 4
+      },
+      "sha256": "fddff863e3d4144ae966e78d0c033048c8159228fbb71a144ad04bf6e3f31c0d",
+      "id": "factories.lua:baseline:1"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 244,
+        "line": 11,
+        "column": 1
+      },
+      "end": {
+        "byte": 311,
+        "line": 13,
+        "column": 4
+      },
+      "sha256": "9f0ab76dd4ee2013e97001383dee48881aa2adf23bf80ee3b13f893e5f625798",
+      "id": "factories.lua:baseline:2"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 402,
+        "line": 18,
+        "column": 1
+      },
+      "sha256": "ab9b6d43fa88874eecb94434739e54b3b23fc556562ade7247b5122af7d0d7c3",
+      "id": "factories.lua:baseline:3"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 196,
+        "line": 7,
+        "column": 5
+      },
+      "end": {
+        "byte": 222,
+        "line": 7,
+        "column": 31
+      },
+      "sha256": "6150825b3d726ecf936275f5a988511e2c38faf58ace5444ea63405441008e43",
+      "id": "factories.lua:baseline:4"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 320,
+        "line": 15,
+        "column": 8
+      },
+      "end": {
+        "byte": 345,
+        "line": 15,
+        "column": 33
+      },
+      "sha256": "2fe67d710b966fea609cf71e8cb9206a732aefbb0fdacd631829d736c56ac1f1",
+      "id": "factories.lua:baseline:5"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 351,
+        "line": 16,
+        "column": 5
+      },
+      "end": {
+        "byte": 376,
+        "line": 16,
+        "column": 30
+      },
+      "sha256": "b6e97f92285b0fc30f1afb8637ca9c27d16b11e0969fe7ac6b8b88ec3ea39a87",
+      "id": "factories.lua:baseline:6"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 286,
+        "line": 12,
+        "column": 12
+      },
+      "end": {
+        "byte": 307,
+        "line": 12,
+        "column": 33
+      },
+      "sha256": "8a780e06dbab83c8f441232e4a2eb840f6b254c9756169d822814a8ee2f77cee",
+      "id": "factories.lua:baseline:7"
+    },
+    {
+      "path": "factories.lua",
+      "start": {
+        "byte": 382,
+        "line": 17,
+        "column": 5
+      },
+      "end": {
+        "byte": 401,
+        "line": 17,
+        "column": 24
+      },
+      "sha256": "6333dfcd9fbbf60897132568d71e4554c955c8b72dbee19a058e70aee4f8e366",
+      "id": "factories.lua:baseline:8"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 70,
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "byte": 179,
+        "line": 7,
+        "column": 4
+      },
+      "sha256": "34a7e61540ed5637ee0997f82e4607d867da13ec3fca7a24bc76a6773aabf676",
+      "id": "scopes.lua:baseline:1"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 181,
+        "line": 9,
+        "column": 1
+      },
+      "end": {
+        "byte": 599,
+        "line": 23,
+        "column": 4
+      },
+      "sha256": "f234e0fe6d07c5236ff884b508e51e24369ba6923e14d1b0625e0d7f1ac5e1ef",
+      "id": "scopes.lua:baseline:2"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 97,
+        "line": 3,
+        "column": 5
+      },
+      "end": {
+        "byte": 154,
+        "line": 5,
+        "column": 8
+      },
+      "sha256": "7794129639bf50e83b48209638a4641d79078f5b1fb958ca9f3ef5a094fad020",
+      "id": "scopes.lua:baseline:3"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 236,
+        "line": 10,
+        "column": 5
+      },
+      "end": {
+        "byte": 297,
+        "line": 12,
+        "column": 8
+      },
+      "sha256": "6185866e9a0df94302648723ab85c2420b32da8abf04656e1effa9274406604c",
+      "id": "scopes.lua:baseline:4"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 302,
+        "line": 13,
+        "column": 5
+      },
+      "end": {
+        "byte": 405,
+        "line": 17,
+        "column": 8
+      },
+      "sha256": "b581c15c6fdb651c08819750c94b6499ed27f1374334776bb30bdd89fbccf498",
+      "id": "scopes.lua:baseline:5"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 341,
+        "line": 14,
+        "column": 16
+      },
+      "end": {
+        "byte": 356,
+        "line": 14,
+        "column": 31
+      },
+      "sha256": "43d67412094d854d61b79ef7a56c6a839b6247886ba984ba009199c38def183c",
+      "id": "scopes.lua:baseline:6"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 166,
+        "line": 6,
+        "column": 12
+      },
+      "end": {
+        "byte": 175,
+        "line": 6,
+        "column": 21
+      },
+      "sha256": "cf10742fbcbc27bc7da75441b75d1cf028fe62820586471fd929c1a78c8a180f",
+      "id": "scopes.lua:baseline:7"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 438,
+        "line": 18,
+        "column": 33
+      },
+      "end": {
+        "byte": 447,
+        "line": 18,
+        "column": 42
+      },
+      "sha256": "032c4fe8a6264cb83bc811a26d56a0b5995126a6149299370501c8bf73cc9ef9",
+      "id": "scopes.lua:baseline:8"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 410,
+        "line": 18,
+        "column": 5
+      },
+      "end": {
+        "byte": 431,
+        "line": 18,
+        "column": 26
+      },
+      "sha256": "76d6f0d3c65fb7081daa0bbd20f80e2e1805690b49a38e7a30c90d70c2d6ff30",
+      "id": "scopes.lua:baseline:9"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 410,
+        "line": 18,
+        "column": 5
+      },
+      "end": {
+        "byte": 448,
+        "line": 18,
+        "column": 43
+      },
+      "sha256": "8b72b33b8e634fa66be7778bd15a1feac4aafc211c589601f5b332d06f98f570",
+      "id": "scopes.lua:baseline:10"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 453,
+        "line": 19,
+        "column": 5
+      },
+      "end": {
+        "byte": 479,
+        "line": 19,
+        "column": 31
+      },
+      "sha256": "4882baacd2f75ee37911f29bf1ea24ef976c729eec606680855a7e9e623a0bf9",
+      "id": "scopes.lua:baseline:11"
+    },
+    {
+      "path": "scopes.lua",
+      "start": {
+        "byte": 484,
+        "line": 20,
+        "column": 5
+      },
+      "end": {
+        "byte": 520,
+        "line": 20,
+        "column": 41
+      },
+      "sha256": "ee04c061b63a9a1393a283762c6afffaf66db2ae28c123a7bedcf1a49bdacadc",
+      "id": "scopes.lua:baseline:12"
+    },
+    {
+      "path": "utf8-crlf.lua",
+      "start": {
+        "byte": 75,
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "byte": 113,
+        "line": 3,
+        "column": 39
+      },
+      "sha256": "cdf87fdcf2235167b8bed0b9956bde03ed74035ddaf80944dfc014e7eee982fd",
+      "id": "utf8-crlf.lua:baseline:1"
+    },
+    {
+      "path": "utf8-crlf.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 130,
+        "line": 5,
+        "column": 1
+      },
+      "sha256": "f472188e65b5ef59504ecaacf6be722f861203f7f3202902b9611959de6dc0bc",
+      "id": "utf8-crlf.lua:baseline:2"
+    },
+    {
+      "path": "utf8-crlf.lua",
+      "start": {
+        "byte": 51,
+        "line": 2,
+        "column": 1
+      },
+      "end": {
+        "byte": 73,
+        "line": 2,
+        "column": 23
+      },
+      "sha256": "0aca98bdcb2d27fcfd63fccbd4efe3145189e5b790744f35567f2e116f80d2b3",
+      "id": "utf8-crlf.lua:baseline:3"
+    },
+    {
+      "path": "utf8-crlf.lua",
+      "start": {
+        "byte": 97,
+        "line": 3,
+        "column": 23
+      },
+      "end": {
+        "byte": 109,
+        "line": 3,
+        "column": 35
+      },
+      "sha256": "9d96e172832dcb7198b029ec07a771b40eecf1c51bc7afeabe8926e6928c626d",
+      "id": "utf8-crlf.lua:baseline:4"
+    },
+    {
+      "path": "utf8-crlf.lua",
+      "start": {
+        "byte": 122,
+        "line": 4,
+        "column": 8
+      },
+      "end": {
+        "byte": 128,
+        "line": 4,
+        "column": 14
+      },
+      "sha256": "a7036791d386248b5e9bcce7fc99db0dbf90ff54eee6ffe6bec210f3487b37f3",
+      "id": "utf8-crlf.lua:baseline:5"
+    },
+    {
+      "path": "utf8-crlf.lua",
+      "start": {
+        "byte": 66,
+        "line": 2,
+        "column": 16
+      },
+      "end": {
+        "byte": 72,
+        "line": 2,
+        "column": 22
+      },
+      "sha256": "5ad0c596f2dc3f506247683fcaa591b916815854d51d5f379704aa98666cae9c",
+      "id": "utf8-crlf.lua:baseline:6"
+    }
+  ],
+  "cases": [
+    {
+      "path": "component.lua",
+      "sha256": "1b0b4775de8444e64cefd8c1219737718dd5ef0ba4e3d762196de865d8c14fa5",
+      "expected_status": "complete",
+      "checks": [
+        {
+          "id": "symbol:component.lua#module/class:Meter",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#module/class:Meter",
+            "kind": "class",
+            "name": "Meter",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "none",
+            "base_expression": "nil"
+          },
+          "anchor_id": "component.lua:baseline:1"
+        },
+        {
+          "id": "symbol:component.lua#Meter/constructor:new",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#Meter/constructor:new",
+            "kind": "constructor",
+            "name": "new",
+            "scope": "Meter",
+            "owner_id": "component.lua#module/class:Meter",
+            "parameters": [
+              {
+                "name": "self",
+                "kind": "named"
+              },
+              {
+                "name": "inst",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:2"
+        },
+        {
+          "id": "symbol:component.lua#module/function:oncount",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#module/function:oncount",
+            "kind": "function",
+            "name": "oncount",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "self",
+                "kind": "named"
+              },
+              {
+                "name": "value",
+                "kind": "named"
+              },
+              {
+                "name": "old",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:3"
+        },
+        {
+          "id": "symbol:component.lua#Meter/field:count",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#Meter/field:count",
+            "kind": "field",
+            "name": "count",
+            "scope": "Meter",
+            "owner_id": "component.lua#module/class:Meter",
+            "parameters": [],
+            "calling": "none",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:4"
+        },
+        {
+          "id": "symbol:component.lua#Meter/field:callback",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#Meter/field:callback",
+            "kind": "field",
+            "name": "callback",
+            "scope": "Meter",
+            "owner_id": "component.lua#module/class:Meter",
+            "parameters": [],
+            "calling": "none",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:5"
+        },
+        {
+          "id": "symbol:component.lua#Meter/method:Use",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#Meter/method:Use",
+            "kind": "method",
+            "name": "Use",
+            "scope": "Meter",
+            "owner_id": "component.lua#module/class:Meter",
+            "parameters": [
+              {
+                "name": "amount",
+                "kind": "named"
+              },
+              {
+                "name": "...",
+                "kind": "vararg"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:6"
+        },
+        {
+          "id": "symbol:component.lua#Meter/method:Close",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#Meter/method:Close",
+            "kind": "method",
+            "name": "Close",
+            "scope": "Meter",
+            "owner_id": "component.lua#module/class:Meter",
+            "parameters": [],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:7"
+        },
+        {
+          "id": "symbol:component.lua#Meter/method:OnRemoveFromEntity",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#Meter/method:OnRemoveFromEntity",
+            "kind": "method",
+            "name": "OnRemoveFromEntity",
+            "scope": "Meter",
+            "owner_id": "component.lua#module/class:Meter",
+            "parameters": [],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:8"
+        },
+        {
+          "id": "symbol:component.lua#module/function:<chunk>",
+          "collection": "symbols",
+          "match": {
+            "id": "component.lua#module/function:<chunk>",
+            "kind": "function",
+            "name": "<chunk>",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "component.lua:baseline:9"
+        },
+        {
+          "id": "count-default",
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "subject_symbol_id": "component.lua#Meter/constructor:new",
+            "data": {
+              "target": "self.count",
+              "expression": "3",
+              "literal_kind": "number"
+            },
+            "guards": []
+          },
+          "anchor_id": "component.lua:baseline:10"
+        },
+        {
+          "id": "callback-default",
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "subject_symbol_id": "component.lua#Meter/constructor:new",
+            "data": {
+              "target": "self.callback",
+              "expression": "nil",
+              "literal_kind": "nil"
+            },
+            "guards": []
+          },
+          "anchor_id": "component.lua:baseline:11"
+        },
+        {
+          "id": "count-property",
+          "collection": "records",
+          "match": {
+            "kind": "property_callback",
+            "subject_symbol_id": "component.lua#module/class:Meter",
+            "data": {
+              "field_symbol_id": "component.lua#Meter/field:count",
+              "callback_expression": "oncount",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "component.lua#module/function:oncount",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "component.lua:baseline:12"
+        },
+        {
+          "id": "replica-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "component.lua#module/function:oncount",
+            "data": {
+              "receiver": "self.inst.replica.meter",
+              "callee": "SetValue",
+              "arguments": [
+                "value"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "self.inst.replica.meter ~= nil",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:13"
+        },
+        {
+          "id": "early-return",
+          "collection": "records",
+          "match": {
+            "kind": "return",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "expressions": [
+                "false"
+              ],
+              "implicit": false
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:14"
+        },
+        {
+          "id": "optional-helper",
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "helper",
+              "literal_name": "helper",
+              "operation": "read"
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:15"
+        },
+        {
+          "id": "helper-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "receiver": "self.inst.components.helper",
+              "callee": "Apply",
+              "arguments": [
+                "amount"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              },
+              {
+                "expression": "self.inst.components.helper ~= nil",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:16"
+        },
+        {
+          "id": "else-count",
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "target": "self.count",
+              "expression": "self.count - amount",
+              "literal_kind": "nonliteral"
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              },
+              {
+                "expression": "self.inst.components.helper ~= nil",
+                "branch": "else"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:17"
+        },
+        {
+          "id": "callback-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "receiver": null,
+              "callee": "self.callback",
+              "arguments": [
+                "self.inst",
+                "amount",
+                "..."
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              },
+              {
+                "expression": "self.callback ~= nil",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:18"
+        },
+        {
+          "id": "event",
+          "collection": "records",
+          "match": {
+            "kind": "event_emit",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "\"meterchanged\"",
+              "literal_name": "meterchanged",
+              "payload_expression": "{ value = self.count }",
+              "callback_expression": null
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:19"
+        },
+        {
+          "id": "listen",
+          "collection": "records",
+          "match": {
+            "kind": "event_listen",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "\"tick\"",
+              "literal_name": "tick",
+              "payload_expression": null,
+              "callback_expression": "oncount"
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:20"
+        },
+        {
+          "id": "remove-helper",
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "\"helper\"",
+              "literal_name": "helper",
+              "operation": "remove"
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:21"
+        },
+        {
+          "id": "multi-return",
+          "collection": "records",
+          "match": {
+            "kind": "return",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "data": {
+              "expressions": [
+                "true",
+                "self.count"
+              ],
+              "implicit": false
+            },
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "component.lua:baseline:22"
+        },
+        {
+          "id": "lifecycle-alias",
+          "collection": "records",
+          "match": {
+            "kind": "method_alias",
+            "subject_symbol_id": "component.lua#module/class:Meter",
+            "data": {
+              "target_symbol_id": "component.lua#Meter/method:OnRemoveFromEntity",
+              "expression": "Meter.Close",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "component.lua#Meter/method:Close",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "component.lua:baseline:23"
+        },
+        {
+          "id": "pseudo-assignment-comment",
+          "collection": "records",
+          "match": {
+            "kind": "comment",
+            "subject_symbol_id": "component.lua#Meter/constructor:new",
+            "data": {
+              "text": "-- self.fake = 99",
+              "style": "line"
+            },
+            "guards": []
+          },
+          "anchor_id": "component.lua:baseline:24"
+        },
+        {
+          "id": "pseudo-function-comment",
+          "collection": "records",
+          "match": {
+            "kind": "comment",
+            "subject_symbol_id": "component.lua#module/function:<chunk>",
+            "data": {
+              "text": "--[[ function Meter:Imaginary() self.phantom = 1 end ]]",
+              "style": "block"
+            },
+            "guards": []
+          },
+          "anchor_id": "component.lua:baseline:25"
+        },
+        {
+          "id": "listen-full-arguments",
+          "collection": "records",
+          "anchor_id": "component.lua:baseline:20",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "component.lua#Meter/method:Use",
+            "guards": [
+              {
+                "expression": "amount == nil",
+                "branch": "after-return"
+              }
+            ],
+            "data": {
+              "receiver": "self.inst",
+              "callee": "ListenForEvent",
+              "arguments": [
+                "\"tick\"",
+                "oncount",
+                "self.inst"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            }
+          }
+        }
+      ],
+      "forbidden": [
+        {
+          "collection": "symbols",
+          "match": {
+            "kind": "field",
+            "name": "fake"
+          }
+        },
+        {
+          "collection": "symbols",
+          "match": {
+            "kind": "field",
+            "name": "phantom"
+          }
+        },
+        {
+          "collection": "symbols",
+          "match": {
+            "name": "Imaginary"
+          }
+        },
+        {
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "data": {
+              "target": "self.fake"
+            }
+          }
+        },
+        {
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "data": {
+              "target": "self.phantom"
+            }
+          }
+        }
+      ],
+      "semantic_reviews": []
+    },
+    {
+      "path": "factories.lua",
+      "sha256": "ab9b6d43fa88874eecb94434739e54b3b23fc556562ade7247b5122af7d0d7c3",
+      "expected_status": "complete",
+      "checks": [
+        {
+          "id": "symbol:factories.lua#module/function:factory",
+          "collection": "symbols",
+          "match": {
+            "id": "factories.lua#module/function:factory",
+            "kind": "function",
+            "name": "factory",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "factories.lua:baseline:1"
+        },
+        {
+          "id": "symbol:factories.lua#module/function:MakeNamed",
+          "collection": "symbols",
+          "match": {
+            "id": "factories.lua#module/function:MakeNamed",
+            "kind": "function",
+            "name": "MakeNamed",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "name",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "factories.lua:baseline:2"
+        },
+        {
+          "id": "symbol:factories.lua#module/function:<chunk>",
+          "collection": "symbols",
+          "match": {
+            "id": "factories.lua#module/function:<chunk>",
+            "kind": "function",
+            "name": "<chunk>",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "factories.lua:baseline:3"
+        },
+        {
+          "id": "master-only-add",
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "subject_symbol_id": "factories.lua#module/function:factory",
+            "data": {
+              "receiver": "inst",
+              "name_expression": "\"meter\"",
+              "literal_name": "meter",
+              "operation": "add"
+            },
+            "guards": [
+              {
+                "expression": "not TheWorld.ismastersim",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "factories.lua:baseline:4"
+        },
+        {
+          "id": "registration-demo_a",
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "subject_symbol_id": "factories.lua#module/function:<chunk>",
+            "data": {
+              "name_expression": "\"demo_a\"",
+              "literal_name": "demo_a",
+              "factory_expression": "factory",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "factories.lua#module/function:factory",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "factories.lua:baseline:5"
+        },
+        {
+          "id": "registration-demo_b",
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "subject_symbol_id": "factories.lua#module/function:<chunk>",
+            "data": {
+              "name_expression": "\"demo_b\"",
+              "literal_name": "demo_b",
+              "factory_expression": "factory",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "factories.lua#module/function:factory",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "factories.lua:baseline:6"
+        },
+        {
+          "id": "parameterized-registration",
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "subject_symbol_id": "factories.lua#module/function:MakeNamed",
+            "data": {
+              "name_expression": "name",
+              "literal_name": null,
+              "factory_expression": "factory",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "factories.lua#module/function:factory",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "factories.lua:baseline:7"
+        },
+        {
+          "id": "wrapper-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "factories.lua#module/function:<chunk>",
+            "data": {
+              "receiver": null,
+              "callee": "MakeNamed",
+              "arguments": [
+                "\"demo_c\""
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "factories.lua#module/function:MakeNamed",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "factories.lua:baseline:8"
+        }
+      ],
+      "forbidden": [
+        {
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "data": {
+              "literal_name": "demo_c"
+            }
+          }
+        }
+      ],
+      "semantic_reviews": []
+    },
+    {
+      "path": "scopes.lua",
+      "sha256": "1f6a5548ba2acd6be7421e7dde1ae8be7c7552680e0523a29f551a4167c8d5d6",
+      "expected_status": "complete",
+      "checks": [
+        {
+          "id": "symbol:scopes.lua#module/function:first",
+          "collection": "symbols",
+          "match": {
+            "id": "scopes.lua#module/function:first",
+            "kind": "function",
+            "name": "first",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "scopes.lua:baseline:1"
+        },
+        {
+          "id": "symbol:scopes.lua#module/function:second",
+          "collection": "symbols",
+          "match": {
+            "id": "scopes.lua#module/function:second",
+            "kind": "function",
+            "name": "second",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "inst",
+                "kind": "named"
+              },
+              {
+                "name": "name",
+                "kind": "named"
+              },
+              {
+                "name": "event",
+                "kind": "named"
+              },
+              {
+                "name": "callback",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "scopes.lua:baseline:2"
+        },
+        {
+          "id": "symbol:scopes.lua#module/first/function:update",
+          "collection": "symbols",
+          "match": {
+            "id": "scopes.lua#module/first/function:update",
+            "kind": "function",
+            "name": "update",
+            "scope": "module/first",
+            "owner_id": "scopes.lua#module/function:first",
+            "parameters": [
+              {
+                "name": "value",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "scopes.lua:baseline:3"
+        },
+        {
+          "id": "symbol:scopes.lua#module/second/function:update",
+          "collection": "symbols",
+          "match": {
+            "id": "scopes.lua#module/second/function:update",
+            "kind": "function",
+            "name": "update",
+            "scope": "module/second",
+            "owner_id": "scopes.lua#module/function:second",
+            "parameters": [
+              {
+                "name": "value",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "scopes.lua:baseline:4"
+        },
+        {
+          "id": "symbol:scopes.lua#module/second/function:holder",
+          "collection": "symbols",
+          "match": {
+            "id": "scopes.lua#module/second/function:holder",
+            "kind": "function",
+            "name": "holder",
+            "scope": "module/second",
+            "owner_id": "scopes.lua#module/function:second",
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "scopes.lua:baseline:5"
+        },
+        {
+          "id": "symbol:scopes.lua#module/second/holder/function:anon:1",
+          "collection": "symbols",
+          "match": {
+            "id": "scopes.lua#module/second/holder/function:anon:1",
+            "kind": "function",
+            "name": "anon:1",
+            "scope": "module/second/holder",
+            "owner_id": "scopes.lua#module/second/function:holder",
+            "parameters": [
+              {
+                "name": "value",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "scopes.lua:baseline:6"
+        },
+        {
+          "id": "scope-first-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "scopes.lua#module/function:first",
+            "data": {
+              "receiver": null,
+              "callee": "update",
+              "arguments": [
+                "1"
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "scopes.lua#module/first/function:update",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "scopes.lua:baseline:7"
+        },
+        {
+          "id": "scope-second-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "scopes.lua#module/function:second",
+            "data": {
+              "receiver": null,
+              "callee": "update",
+              "arguments": [
+                "2"
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "scopes.lua#module/second/function:update",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "scopes.lua:baseline:8"
+        },
+        {
+          "id": "dynamic-component",
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "subject_symbol_id": "scopes.lua#module/function:second",
+            "data": {
+              "receiver": "inst",
+              "name_expression": "name",
+              "literal_name": null,
+              "operation": "read"
+            },
+            "guards": []
+          },
+          "anchor_id": "scopes.lua:baseline:9"
+        },
+        {
+          "id": "indirect-method",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "scopes.lua#module/function:second",
+            "data": {
+              "receiver": "inst.components[name]",
+              "callee": "Apply",
+              "arguments": [
+                "update(2)"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "scopes.lua:baseline:10"
+        },
+        {
+          "id": "dynamic-event",
+          "collection": "records",
+          "match": {
+            "kind": "event_emit",
+            "subject_symbol_id": "scopes.lua#module/function:second",
+            "data": {
+              "receiver": "inst",
+              "name_expression": "event",
+              "literal_name": null,
+              "payload_expression": "nil",
+              "callback_expression": null
+            },
+            "guards": []
+          },
+          "anchor_id": "scopes.lua:baseline:11"
+        },
+        {
+          "id": "dynamic-listener",
+          "collection": "records",
+          "match": {
+            "kind": "event_listen",
+            "subject_symbol_id": "scopes.lua#module/function:second",
+            "data": {
+              "receiver": "inst",
+              "name_expression": "event",
+              "literal_name": null,
+              "payload_expression": null,
+              "callback_expression": "callback"
+            },
+            "guards": []
+          },
+          "anchor_id": "scopes.lua:baseline:12"
+        }
+      ],
+      "forbidden": [
+        {
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "data": {
+              "operation": "add",
+              "literal_name": "fake"
+            }
+          }
+        },
+        {
+          "collection": "records",
+          "match": {
+            "kind": "event_emit",
+            "data": {
+              "literal_name": "event"
+            }
+          }
+        }
+      ],
+      "semantic_reviews": []
+    },
+    {
+      "path": "utf8-crlf.lua",
+      "sha256": "f472188e65b5ef59504ecaacf6be722f861203f7f3202902b9611959de6dc0bc",
+      "expected_status": "complete",
+      "checks": [
+        {
+          "id": "symbol:utf8-crlf.lua#module/function:echo",
+          "collection": "symbols",
+          "match": {
+            "id": "utf8-crlf.lua#module/function:echo",
+            "kind": "function",
+            "name": "echo",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "utf8-crlf.lua:baseline:1"
+        },
+        {
+          "id": "symbol:utf8-crlf.lua#module/function:<chunk>",
+          "collection": "symbols",
+          "match": {
+            "id": "utf8-crlf.lua#module/function:<chunk>",
+            "kind": "function",
+            "name": "<chunk>",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "utf8-crlf.lua:baseline:2"
+        },
+        {
+          "id": "utf8-string-assignment",
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "subject_symbol_id": "utf8-crlf.lua#module/function:<chunk>",
+            "data": {
+              "target": "value",
+              "expression": "\"耐久\"",
+              "literal_kind": "string"
+            },
+            "guards": []
+          },
+          "anchor_id": "utf8-crlf.lua:baseline:3"
+        },
+        {
+          "id": "echo-return",
+          "collection": "records",
+          "match": {
+            "kind": "return",
+            "subject_symbol_id": "utf8-crlf.lua#module/function:echo",
+            "data": {
+              "expressions": [
+                "value"
+              ],
+              "implicit": false
+            },
+            "guards": []
+          },
+          "anchor_id": "utf8-crlf.lua:baseline:4"
+        },
+        {
+          "id": "echo-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "utf8-crlf.lua#module/function:<chunk>",
+            "data": {
+              "receiver": null,
+              "callee": "echo",
+              "arguments": [],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "utf8-crlf.lua#module/function:echo",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "utf8-crlf.lua:baseline:5"
+        }
+      ],
+      "forbidden": [],
+      "semantic_reviews": [],
+      "coordinate_probes": [
+        "utf8-crlf.lua:baseline:6"
+      ]
+    },
+    {
+      "path": "invalid.lua",
+      "sha256": "4647dfb424b4d211c995c8db7c0ca74b5ed891b919baeb0cba0293318f2476c0",
+      "expected_status": "failed",
+      "checks": [],
+      "forbidden": [],
+      "semantic_reviews": [],
+      "require_error_diagnostic": true,
+      "empty_facts": true
+    }
+  ]
+}

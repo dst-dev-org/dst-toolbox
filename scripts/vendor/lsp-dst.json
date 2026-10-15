@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "fork_url": "https://github.com/YingSP/lsp-dst.git",
+  "fork_branch": "master",
+  "fork_commit": "1db05561ea6ea271093ea780b60d49e7499baf40",
+  "upstream_url": "https://github.com/b1inkie/lsp-dst.git",
+  "upstream_branch": "master",
+  "upstream_commit": "cd9fdce8a88176a8db9190d27189eeb710e2b30d",
+  "checkout_path": "scripts/vendor/lsp-dst",
+  "local_branch": "codex/source-reviewed",
+  "coverage_path": "reviews/coverage.json",
+  "coverage": "partial; unlisted upstream entries remain candidates",
+  "validation": {
+    "source_reviewed": true,
+    "luals_checked": false,
+    "runtime_tested": false
+  }
+}

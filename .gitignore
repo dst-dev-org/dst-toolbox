@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+scripts/fullmoon-dst/target/
+scripts/vendor/lsp-dst/
+output/
+scripts/output/
+dst-wiki.local.json
+.idea/

@@ -1,0 +1,2955 @@
+{
+  "baseline_version": 1,
+  "kind": "local-source-extraction-baseline",
+  "contract_version": "1.0.0",
+  "mode": "manual-expectations",
+  "parser_executed": false,
+  "root_hint": "raw/current/scripts",
+  "revision": {
+    "scheme": "steam-buildid",
+    "value": "25643519"
+  },
+  "comparison": "required-subset-plus-forbidden",
+  "anchors": [
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 351,
+        "line": 10,
+        "column": 20
+      },
+      "end": {
+        "byte": 377,
+        "line": 10,
+        "column": 46
+      },
+      "sha256": "97343280999e43a40e567f11e0f054f906ea8fb07fe61d9cffc61350d55b963b",
+      "id": "components/finiteuses.lua:baseline:1"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 357,
+        "line": 10,
+        "column": 26
+      },
+      "end": {
+        "byte": 377,
+        "line": 10,
+        "column": 46
+      },
+      "sha256": "2dedbab73ddcae5414835f8d7dce19d646fde8f72eff80a57aa35c78d57e2810",
+      "id": "components/finiteuses.lua:baseline:2"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 330,
+        "line": 8,
+        "column": 4
+      },
+      "sha256": "abae5f915811a3c7c2386466c1598007bb9999121a689c91b3136e9f7bbd07a1",
+      "id": "components/finiteuses.lua:baseline:3"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 403,
+        "line": 12,
+        "column": 5
+      },
+      "end": {
+        "byte": 419,
+        "line": 12,
+        "column": 21
+      },
+      "sha256": "ab6a617ee1251dbdc1b37f43c5936ec591a355a636f3789ca85c111a2d9af86a",
+      "id": "components/finiteuses.lua:baseline:4"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 403,
+        "line": 12,
+        "column": 5
+      },
+      "end": {
+        "byte": 419,
+        "line": 12,
+        "column": 21
+      },
+      "sha256": "ab6a617ee1251dbdc1b37f43c5936ec591a355a636f3789ca85c111a2d9af86a",
+      "id": "components/finiteuses.lua:baseline:5"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 557,
+        "line": 20,
+        "column": 5
+      },
+      "end": {
+        "byte": 577,
+        "line": 20,
+        "column": 25
+      },
+      "sha256": "3d76c09626d4c30835f33c9788178b110ea41a15e5dd5c00932e0e8d36dcb7b3",
+      "id": "components/finiteuses.lua:baseline:6"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 424,
+        "line": 13,
+        "column": 5
+      },
+      "end": {
+        "byte": 442,
+        "line": 13,
+        "column": 23
+      },
+      "sha256": "64d51463e0159db4619450481caca9718d0be8481c384ee2eaf5c085e73e85c6",
+      "id": "components/finiteuses.lua:baseline:7"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 424,
+        "line": 13,
+        "column": 5
+      },
+      "end": {
+        "byte": 442,
+        "line": 13,
+        "column": 23
+      },
+      "sha256": "64d51463e0159db4619450481caca9718d0be8481c384ee2eaf5c085e73e85c6",
+      "id": "components/finiteuses.lua:baseline:8"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 529,
+        "line": 19,
+        "column": 5
+      },
+      "end": {
+        "byte": 551,
+        "line": 19,
+        "column": 27
+      },
+      "sha256": "6a82d950165b179b0683985723e7e64b96157db857a9285347c299954aa7c376",
+      "id": "components/finiteuses.lua:baseline:9"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 1638,
+        "line": 64,
+        "column": 1
+      },
+      "end": {
+        "byte": 2098,
+        "line": 79,
+        "column": 4
+      },
+      "sha256": "bd1c6cce13ea39a5e2e782d18d4a78faef03319def842a9f7fb59c86ab38bf85",
+      "id": "components/finiteuses.lua:baseline:10"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 2159,
+        "line": 85,
+        "column": 1
+      },
+      "end": {
+        "byte": 2235,
+        "line": 87,
+        "column": 4
+      },
+      "sha256": "5f37ec79e0b088c549d83b8f76fd7188c092a71a9244c7c6768775a0e8f83727",
+      "id": "components/finiteuses.lua:baseline:11"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 1324,
+        "line": 48,
+        "column": 1
+      },
+      "end": {
+        "byte": 1467,
+        "line": 52,
+        "column": 4
+      },
+      "sha256": "01cbf879fc9460e219afabfc602c8ce614f4e05cac52374c104c6883598c745b",
+      "id": "components/finiteuses.lua:baseline:12"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 2529,
+        "line": 101,
+        "column": 1
+      },
+      "end": {
+        "byte": 2988,
+        "line": 114,
+        "column": 4
+      },
+      "sha256": "bfb6d71574f6dd3344b876ca5fda75d7ec1c70f05f7b4c67d76169a17b0b92bf",
+      "id": "components/finiteuses.lua:baseline:13"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 1740,
+        "line": 67,
+        "column": 5
+      },
+      "end": {
+        "byte": 1811,
+        "line": 67,
+        "column": 76
+      },
+      "sha256": "788120a7220c2bb45fdadb15c710a5daed6547627d248c3d1079ac2405e446ff",
+      "id": "components/finiteuses.lua:baseline:14"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 2192,
+        "line": 86,
+        "column": 5
+      },
+      "end": {
+        "byte": 2231,
+        "line": 86,
+        "column": 44
+      },
+      "sha256": "e8a817448eaaf42e26686d177c13739b830ff8f65c3819783dd5566d027eeac6",
+      "id": "components/finiteuses.lua:baseline:15"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 1425,
+        "line": 50,
+        "column": 9
+      },
+      "end": {
+        "byte": 1455,
+        "line": 50,
+        "column": 39
+      },
+      "sha256": "dc6de6b6a0969e521165a5ddf819959689093faaca48c7373cef95a19def5807",
+      "id": "components/finiteuses.lua:baseline:16"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 2876,
+        "line": 109,
+        "column": 20
+      },
+      "end": {
+        "byte": 2940,
+        "line": 109,
+        "column": 84
+      },
+      "sha256": "1eb0393666717e1d2df53a41e1a1ebde93297544399c76bed150c273910bf241",
+      "id": "components/finiteuses.lua:baseline:17"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 581,
+        "line": 21,
+        "column": 3
+      },
+      "sha256": "b46d832ede34a7e7177579a6b741d5873e6693d2e449a6ef83625d32deb54a9f",
+      "id": "components/finiteuses.lua:baseline:18"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 1139,
+        "line": 44,
+        "column": 1
+      },
+      "end": {
+        "byte": 1574,
+        "line": 58,
+        "column": 4
+      },
+      "sha256": "c54774345ef80dcea39324561d2bc8882825cc9b933bbd3d2b9662d4e5b6695c",
+      "id": "components/finiteuses.lua:baseline:19"
+    },
+    {
+      "path": "components/finiteuses.lua",
+      "start": {
+        "byte": 1638,
+        "line": 64,
+        "column": 1
+      },
+      "end": {
+        "byte": 2235,
+        "line": 87,
+        "column": 4
+      },
+      "sha256": "12b05a492608f3368ff7d50b4fbc42a2221b32adac6f3da5d4baf2df5a25f1ea",
+      "id": "components/finiteuses.lua:baseline:20"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 851,
+        "line": 25,
+        "column": 20
+      },
+      "end": {
+        "byte": 877,
+        "line": 25,
+        "column": 46
+      },
+      "sha256": "97343280999e43a40e567f11e0f054f906ea8fb07fe61d9cffc61350d55b963b",
+      "id": "components/equippable.lua:baseline:1"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 857,
+        "line": 25,
+        "column": 26
+      },
+      "end": {
+        "byte": 877,
+        "line": 25,
+        "column": 46
+      },
+      "sha256": "2dedbab73ddcae5414835f8d7dce19d646fde8f72eff80a57aa35c78d57e2810",
+      "id": "components/equippable.lua:baseline:2"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 183,
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "byte": 512,
+        "line": 13,
+        "column": 4
+      },
+      "sha256": "875b1bf93351a1ad5cc6587cf9e1699c901735515ffc21fe2d4cd00f9b665d04",
+      "id": "components/equippable.lua:baseline:3"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 1108,
+        "line": 35,
+        "column": 5
+      },
+      "end": {
+        "byte": 1132,
+        "line": 35,
+        "column": 29
+      },
+      "sha256": "7375bb99956cb636ff376736f60135723adae4bd1bcfbda9f12c1eab77a04cb9",
+      "id": "components/equippable.lua:baseline:4"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 2455,
+        "line": 92,
+        "column": 1
+      },
+      "end": {
+        "byte": 2942,
+        "line": 107,
+        "column": 4
+      },
+      "sha256": "10f01e99ec4c18aaf882f8eb680e2754f512ad051948fdad516c411ba1d8c6c2",
+      "id": "components/equippable.lua:baseline:5"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 3070,
+        "line": 115,
+        "column": 1
+      },
+      "end": {
+        "byte": 3282,
+        "line": 123,
+        "column": 4
+      },
+      "sha256": "e79bbc950f8f6f976ff334f94de6b62db3c49cc9ab74cb20324e1dde163d90ee",
+      "id": "components/equippable.lua:baseline:6"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 5307,
+        "line": 184,
+        "column": 1
+      },
+      "end": {
+        "byte": 5658,
+        "line": 194,
+        "column": 4
+      },
+      "sha256": "2d394f5413e8f75ba77e0ee7eab044c5df5604f91e75344e0d917e5864461bb5",
+      "id": "components/equippable.lua:baseline:7"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 1553,
+        "line": 50,
+        "column": 5
+      },
+      "end": {
+        "byte": 1584,
+        "line": 50,
+        "column": 36
+      },
+      "sha256": "1f51f02ec6dcf914f5ab21ce2bcc708e5ffc7b37636351c45aac51245f59a35c",
+      "id": "components/equippable.lua:baseline:8"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 437,
+        "line": 11,
+        "column": 9
+      },
+      "end": {
+        "byte": 500,
+        "line": 11,
+        "column": 72
+      },
+      "sha256": "08819a243662d4df026db0da34284bed9f8f246eff5ab8f44de0d180edb43011",
+      "id": "components/equippable.lua:baseline:9"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 2684,
+        "line": 100,
+        "column": 9
+      },
+      "end": {
+        "byte": 2729,
+        "line": 100,
+        "column": 54
+      },
+      "sha256": "fa5bfc93e0a6ffd8d3af24edc888a10b475c14fab5c9c6511c1948a85887c269",
+      "id": "components/equippable.lua:baseline:10"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 2742,
+        "line": 102,
+        "column": 5
+      },
+      "end": {
+        "byte": 2792,
+        "line": 102,
+        "column": 55
+      },
+      "sha256": "82fc6f40616f983efdbae694fb0455d28534a8eef21b7e7f913c8a20ae59675e",
+      "id": "components/equippable.lua:baseline:11"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 3226,
+        "line": 122,
+        "column": 5
+      },
+      "end": {
+        "byte": 3278,
+        "line": 122,
+        "column": 57
+      },
+      "sha256": "686ec9bd6dbcabbadb01a7800df73d005368f456c1e37fef5ea37be951115ce0",
+      "id": "components/equippable.lua:baseline:12"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 5431,
+        "line": 187,
+        "column": 4
+      },
+      "end": {
+        "byte": 5477,
+        "line": 187,
+        "column": 50
+      },
+      "sha256": "7618464a395fd9c6e52c14b5f1bc86c2420a7f647ff442dc803880f75593c245",
+      "id": "components/equippable.lua:baseline:13"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 2455,
+        "line": 92,
+        "column": 1
+      },
+      "end": {
+        "byte": 3282,
+        "line": 123,
+        "column": 4
+      },
+      "sha256": "9334ae5d0e28a795964461b73392d03d60a664fbbd7b188d108f3362ef3d367f",
+      "id": "components/equippable.lua:baseline:14"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 183,
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "byte": 512,
+        "line": 13,
+        "column": 4
+      },
+      "sha256": "875b1bf93351a1ad5cc6587cf9e1699c901735515ffc21fe2d4cd00f9b665d04",
+      "id": "components/equippable.lua:baseline:15"
+    },
+    {
+      "path": "components/equippable.lua",
+      "start": {
+        "byte": 1518,
+        "line": 48,
+        "column": 1
+      },
+      "end": {
+        "byte": 1942,
+        "line": 62,
+        "column": 4
+      },
+      "sha256": "979cf9d2c696fd35c238106857098b4676553a82fa2eedcae97e3071508f878d",
+      "id": "components/equippable.lua:baseline:16"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 725,
+        "line": 27,
+        "column": 19
+      },
+      "end": {
+        "byte": 751,
+        "line": 27,
+        "column": 45
+      },
+      "sha256": "97343280999e43a40e567f11e0f054f906ea8fb07fe61d9cffc61350d55b963b",
+      "id": "components/container.lua:baseline:1"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 21903,
+        "line": 674,
+        "column": 1
+      },
+      "end": {
+        "byte": 23602,
+        "line": 721,
+        "column": 4
+      },
+      "sha256": "c9486b3a310571af984903bedb26322da751e2569ac4a9b341a3c6be1a6c8167",
+      "id": "components/container.lua:baseline:2"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 33965,
+        "line": 1086,
+        "column": 1
+      },
+      "end": {
+        "byte": 34007,
+        "line": 1086,
+        "column": 43
+      },
+      "sha256": "b610b05775351876471545edd92f608adb32299ed8d062c5055e3f88c5482e3a",
+      "id": "components/container.lua:baseline:3"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 33965,
+        "line": 1086,
+        "column": 1
+      },
+      "end": {
+        "byte": 34007,
+        "line": 1086,
+        "column": 43
+      },
+      "sha256": "b610b05775351876471545edd92f608adb32299ed8d062c5055e3f88c5482e3a",
+      "id": "components/container.lua:baseline:4"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 34008,
+        "line": 1087,
+        "column": 1
+      },
+      "end": {
+        "byte": 34054,
+        "line": 1087,
+        "column": 47
+      },
+      "sha256": "b7e3e5da2094e4f12a673c270c145663e523e15cafab062a22e6d8db27f6ce22",
+      "id": "components/container.lua:baseline:5"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 34008,
+        "line": 1087,
+        "column": 1
+      },
+      "end": {
+        "byte": 34054,
+        "line": 1087,
+        "column": 47
+      },
+      "sha256": "b7e3e5da2094e4f12a673c270c145663e523e15cafab062a22e6d8db27f6ce22",
+      "id": "components/container.lua:baseline:6"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 21903,
+        "line": 674,
+        "column": 1
+      },
+      "end": {
+        "byte": 23602,
+        "line": 721,
+        "column": 4
+      },
+      "sha256": "c9486b3a310571af984903bedb26322da751e2569ac4a9b341a3c6be1a6c8167",
+      "id": "components/container.lua:baseline:7"
+    },
+    {
+      "path": "components/container.lua",
+      "start": {
+        "byte": 33965,
+        "line": 1086,
+        "column": 1
+      },
+      "end": {
+        "byte": 34054,
+        "line": 1087,
+        "column": 47
+      },
+      "sha256": "11a550697ef93913019befbe704cab54e491a836b21750ecc39da5a45f1e2638",
+      "id": "components/container.lua:baseline:8"
+    },
+    {
+      "path": "class.lua",
+      "start": {
+        "byte": 1611,
+        "line": 83,
+        "column": 1
+      },
+      "end": {
+        "byte": 1645,
+        "line": 83,
+        "column": 35
+      },
+      "sha256": "e785b325659f4044203e9ed02e72149267a756ee059aa4afa8f75c6a13736e07",
+      "id": "class.lua:baseline:1"
+    },
+    {
+      "path": "class.lua",
+      "start": {
+        "byte": 625,
+        "line": 36,
+        "column": 1
+      },
+      "end": {
+        "byte": 823,
+        "line": 45,
+        "column": 4
+      },
+      "sha256": "b3e427eb9b8a5cfe0ac553c27338361140c88b84dcfcc69562f2ee7411a3ff8d",
+      "id": "class.lua:baseline:2"
+    },
+    {
+      "path": "class.lua",
+      "start": {
+        "byte": 796,
+        "line": 43,
+        "column": 9
+      },
+      "end": {
+        "byte": 811,
+        "line": 43,
+        "column": 24
+      },
+      "sha256": "22691af4ed916b6b960a3ff91948003fe04c8fa9f30d36fb60116f32693808ec",
+      "id": "class.lua:baseline:3"
+    },
+    {
+      "path": "class.lua",
+      "start": {
+        "byte": 625,
+        "line": 36,
+        "column": 1
+      },
+      "end": {
+        "byte": 823,
+        "line": 45,
+        "column": 4
+      },
+      "sha256": "b3e427eb9b8a5cfe0ac553c27338361140c88b84dcfcc69562f2ee7411a3ff8d",
+      "id": "class.lua:baseline:4"
+    },
+    {
+      "path": "class.lua",
+      "start": {
+        "byte": 4494,
+        "line": 181,
+        "column": 3
+      },
+      "end": {
+        "byte": 4749,
+        "line": 193,
+        "column": 14
+      },
+      "sha256": "aaefbb03afe22defc53480892e894df0b443c05e74b4ef83210ee6017946dd06",
+      "id": "class.lua:baseline:5"
+    },
+    {
+      "path": "class.lua",
+      "start": {
+        "byte": 625,
+        "line": 36,
+        "column": 1
+      },
+      "end": {
+        "byte": 823,
+        "line": 45,
+        "column": 4
+      },
+      "sha256": "b3e427eb9b8a5cfe0ac553c27338361140c88b84dcfcc69562f2ee7411a3ff8d",
+      "id": "class.lua:baseline:6"
+    },
+    {
+      "path": "class.lua",
+      "start": {
+        "byte": 4494,
+        "line": 181,
+        "column": 3
+      },
+      "end": {
+        "byte": 4749,
+        "line": 193,
+        "column": 14
+      },
+      "sha256": "aaefbb03afe22defc53480892e894df0b443c05e74b4ef83210ee6017946dd06",
+      "id": "class.lua:baseline:7"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 18200,
+        "line": 648,
+        "column": 1
+      },
+      "end": {
+        "byte": 18243,
+        "line": 648,
+        "column": 44
+      },
+      "sha256": "2a3aa9bab3e9a92522f72b7d3dea7a58b7f6339620f145c6e2605a3b5193d005",
+      "id": "entityscript.lua:baseline:1"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 52007,
+        "line": 1705,
+        "column": 1
+      },
+      "end": {
+        "byte": 52037,
+        "line": 1705,
+        "column": 31
+      },
+      "sha256": "0ad3819acf3ac8d482ebd05e6c2efc498489f6e119f9802788c9675c3b96912d",
+      "id": "entityscript.lua:baseline:2"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 58282,
+        "line": 1903,
+        "column": 1
+      },
+      "end": {
+        "byte": 58320,
+        "line": 1903,
+        "column": 39
+      },
+      "sha256": "38fad30a8100de4e3f6da9e21739054b268f550d90f582ba5d16c0a2c9057221",
+      "id": "entityscript.lua:baseline:3"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 59573,
+        "line": 1954,
+        "column": 1
+      },
+      "end": {
+        "byte": 59624,
+        "line": 1954,
+        "column": 52
+      },
+      "sha256": "8c1c09d598445d67e5621e32ef6eb3390d6508648089f492672d519df86ba8e1",
+      "id": "entityscript.lua:baseline:4"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 18533,
+        "line": 657,
+        "column": 13
+      },
+      "end": {
+        "byte": 18557,
+        "line": 657,
+        "column": 37
+      },
+      "sha256": "8aaf26aff0ab0dbc4a86542f1531562e87c538d1cc47844d6467b9b357a352e3",
+      "id": "entityscript.lua:baseline:5"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 58462,
+        "line": 1908,
+        "column": 29
+      },
+      "end": {
+        "byte": 58472,
+        "line": 1908,
+        "column": 39
+      },
+      "sha256": "317005a554b5f83c56ba5fd25c5a282142b5cb9d6b02b3c2bd8baea33c338055",
+      "id": "entityscript.lua:baseline:6"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 58282,
+        "line": 1903,
+        "column": 1
+      },
+      "end": {
+        "byte": 58844,
+        "line": 1922,
+        "column": 8
+      },
+      "sha256": "f9c3c95e7354bf4623e18e958479919767034b91cefe4532b8850bf6e0287aca",
+      "id": "entityscript.lua:baseline:7"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 18200,
+        "line": 648,
+        "column": 1
+      },
+      "end": {
+        "byte": 18668,
+        "line": 663,
+        "column": 4
+      },
+      "sha256": "5687150000d6eb07acd300590c506393bd8357b0d4138bab8b1eba2daff1346f",
+      "id": "entityscript.lua:baseline:8"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 18200,
+        "line": 648,
+        "column": 1
+      },
+      "end": {
+        "byte": 18668,
+        "line": 663,
+        "column": 4
+      },
+      "sha256": "5687150000d6eb07acd300590c506393bd8357b0d4138bab8b1eba2daff1346f",
+      "id": "entityscript.lua:baseline:9"
+    },
+    {
+      "path": "entityscript.lua",
+      "start": {
+        "byte": 52007,
+        "line": 1705,
+        "column": 1
+      },
+      "end": {
+        "byte": 52721,
+        "line": 1732,
+        "column": 12
+      },
+      "sha256": "a592c3783ce79d0f7af5b8bb6c153bdaa8d2b4e8c718324935edf009bf1deaf5",
+      "id": "entityscript.lua:baseline:10"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 872,
+        "line": 38,
+        "column": 1
+      },
+      "end": {
+        "byte": 4293,
+        "line": 133,
+        "column": 4
+      },
+      "sha256": "c85cca504aec0bfa427f88294fdd05cc7b53d170ff0470d540809f1657551291",
+      "id": "prefabs/axe.lua:baseline:1"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 2186,
+        "line": 63,
+        "column": 5
+      },
+      "end": {
+        "byte": 4241,
+        "line": 130,
+        "column": 8
+      },
+      "sha256": "55d9d7cce49bdf0e1bc169985701e995589f91a4f201bda347bc4d7bc3e7908a",
+      "id": "prefabs/axe.lua:baseline:2"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 10298,
+        "line": 294,
+        "column": 111
+      },
+      "sha256": "aaaad3f106b9b6aa9ed1ee30a3e3aeca2cd68d7fc45c6df04aad80bc4725c22c",
+      "id": "prefabs/axe.lua:baseline:3"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 3647,
+        "line": 112,
+        "column": 17
+      },
+      "end": {
+        "byte": 3678,
+        "line": 112,
+        "column": 48
+      },
+      "sha256": "f017b4991b0f651669bc366d29ff10eaa7151c586e68dcf6dd27fdded06b78eb",
+      "id": "prefabs/axe.lua:baseline:4"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 4254,
+        "line": 132,
+        "column": 12
+      },
+      "end": {
+        "byte": 4289,
+        "line": 132,
+        "column": 47
+      },
+      "sha256": "9c9480a6e1bde451da5c815a3875eb05ab2805f6a6beeec0a736d37f6f27f0f7",
+      "id": "prefabs/axe.lua:baseline:5"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 9983,
+        "line": 291,
+        "column": 8
+      },
+      "end": {
+        "byte": 10020,
+        "line": 291,
+        "column": 45
+      },
+      "sha256": "ebbc35084d38d702b81e29e8c030aebecd0b024935325e9598ba88aee9c887f7",
+      "id": "prefabs/axe.lua:baseline:6"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 10026,
+        "line": 292,
+        "column": 5
+      },
+      "end": {
+        "byte": 10099,
+        "line": 292,
+        "column": 78
+      },
+      "sha256": "c5f2ef215714c6ba9d0325cc50468b79c74bfb292f36428d1741431b6d15d4b2",
+      "id": "prefabs/axe.lua:baseline:7"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 10105,
+        "line": 293,
+        "column": 5
+      },
+      "end": {
+        "byte": 10186,
+        "line": 293,
+        "column": 86
+      },
+      "sha256": "b22660dcd0716c1dc6fe9e94c932c2dc286ecedf7c0e9921637ec68f76cbf03a",
+      "id": "prefabs/axe.lua:baseline:8"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 10192,
+        "line": 294,
+        "column": 5
+      },
+      "end": {
+        "byte": 10298,
+        "line": 294,
+        "column": 111
+      },
+      "sha256": "cb11d66284befa2b9d6d608aee9f7cd75e944315bca35dd49d3581e0e266226b",
+      "id": "prefabs/axe.lua:baseline:9"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 872,
+        "line": 38,
+        "column": 1
+      },
+      "end": {
+        "byte": 1570,
+        "line": 47,
+        "column": 91
+      },
+      "sha256": "b2a8dc479188ab4e2a58d1c7dbc9da65196197bda5037a01a8d5151d85e728ac",
+      "id": "prefabs/axe.lua:baseline:10"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 2186,
+        "line": 63,
+        "column": 5
+      },
+      "end": {
+        "byte": 4293,
+        "line": 133,
+        "column": 4
+      },
+      "sha256": "920ff61dd4c26bfd7dc3601fef9a9429017d0b59673f4a82596fd45719382f1f",
+      "id": "prefabs/axe.lua:baseline:11"
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "start": {
+        "byte": 9976,
+        "line": 291,
+        "column": 1
+      },
+      "end": {
+        "byte": 10298,
+        "line": 294,
+        "column": 111
+      },
+      "sha256": "4e8012345d3dea2a9689ed9f8f32daa41ac4bc7f7b06c47d41f01cf605bff124",
+      "id": "prefabs/axe.lua:baseline:12"
+    },
+    {
+      "path": "prefabs/torch.lua",
+      "start": {
+        "byte": 12725,
+        "line": 396,
+        "column": 1
+      },
+      "end": {
+        "byte": 16214,
+        "line": 506,
+        "column": 4
+      },
+      "sha256": "4824ee6dcf5f24dd1dedb01039ef2a8d8299399f23f5e4e482d484ab64b41ac4",
+      "id": "prefabs/torch.lua:baseline:1"
+    },
+    {
+      "path": "prefabs/torch.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 16260,
+        "line": 509,
+        "column": 1
+      },
+      "sha256": "e20aed0ba714e59c5edbe0c69547674a02eaee0c4c4f3cd5c93af2b7bfe2452e",
+      "id": "prefabs/torch.lua:baseline:2"
+    },
+    {
+      "path": "prefabs/torch.lua",
+      "start": {
+        "byte": 14318,
+        "line": 451,
+        "column": 5
+      },
+      "end": {
+        "byte": 14349,
+        "line": 451,
+        "column": 36
+      },
+      "sha256": "12fd518e13126db61ff82e0808dd8c0d04bace758263c6009e8fc89e115ef2b5",
+      "id": "prefabs/torch.lua:baseline:3"
+    },
+    {
+      "path": "prefabs/torch.lua",
+      "start": {
+        "byte": 14407,
+        "line": 453,
+        "column": 5
+      },
+      "end": {
+        "byte": 14453,
+        "line": 453,
+        "column": 51
+      },
+      "sha256": "60a2ff7b774b34817d7af986c972eb783f978ca94b75a69c8350d5ac7531c002",
+      "id": "prefabs/torch.lua:baseline:4"
+    },
+    {
+      "path": "prefabs/torch.lua",
+      "start": {
+        "byte": 16223,
+        "line": 508,
+        "column": 8
+      },
+      "end": {
+        "byte": 16259,
+        "line": 508,
+        "column": 44
+      },
+      "sha256": "8a01c410712b5e54bbf618560571d2c887876ea01d4b731ea1431bc0ef2289bf",
+      "id": "prefabs/torch.lua:baseline:5"
+    },
+    {
+      "path": "prefabs/torch.lua",
+      "start": {
+        "byte": 14318,
+        "line": 451,
+        "column": 5
+      },
+      "end": {
+        "byte": 14573,
+        "line": 455,
+        "column": 65
+      },
+      "sha256": "d44c924008c84552270e7d0eb40ca1800a59cf7351a3d49b7fe4de45d0842d4c",
+      "id": "prefabs/torch.lua:baseline:6"
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "start": {
+        "byte": 1146,
+        "line": 46,
+        "column": 1
+      },
+      "end": {
+        "byte": 2590,
+        "line": 98,
+        "column": 4
+      },
+      "sha256": "d93bcda39d67653b9977aaa8e7f2255126b2f920f50bd64158988bce14f63d0b",
+      "id": "prefabs/icebox.lua:baseline:1"
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "start": {
+        "byte": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "byte": 2701,
+        "line": 102,
+        "column": 1
+      },
+      "sha256": "6d27ce9feb801509f1947abf073ec62a382131f68f64a37d9284965ab6ae4dbc",
+      "id": "prefabs/icebox.lua:baseline:2"
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "start": {
+        "byte": 1890,
+        "line": 77,
+        "column": 5
+      },
+      "end": {
+        "byte": 1920,
+        "line": 77,
+        "column": 35
+      },
+      "sha256": "7f772a64384918b70dfaab81f70732324da9fc5cb9b78ea448dc9f5a3fb77f32",
+      "id": "prefabs/icebox.lua:baseline:3"
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "start": {
+        "byte": 1925,
+        "line": 78,
+        "column": 5
+      },
+      "end": {
+        "byte": 1972,
+        "line": 78,
+        "column": 52
+      },
+      "sha256": "8f29a8fdf9dff1eac6d6954c90206758a108559b34a284f0dad08e18cac654f6",
+      "id": "prefabs/icebox.lua:baseline:4"
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "start": {
+        "byte": 2599,
+        "line": 100,
+        "column": 8
+      },
+      "end": {
+        "byte": 2636,
+        "line": 100,
+        "column": 45
+      },
+      "sha256": "9754bb8568baaf2d7da575277bbd8bd1cf299725823cff2f5b3bb1352b1c0ce1",
+      "id": "prefabs/icebox.lua:baseline:5"
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "start": {
+        "byte": 2642,
+        "line": 101,
+        "column": 5
+      },
+      "end": {
+        "byte": 2700,
+        "line": 101,
+        "column": 63
+      },
+      "sha256": "4e00ffa148e05ec0eef5d2bc75513a965e76feae20f056b8f29b2d2bc58ce35f",
+      "id": "prefabs/icebox.lua:baseline:6"
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "start": {
+        "byte": 1146,
+        "line": 46,
+        "column": 1
+      },
+      "end": {
+        "byte": 2700,
+        "line": 101,
+        "column": 63
+      },
+      "sha256": "9be12d64a612bc3cf810bf19c4023235476a5ced8e450deada8cc9e70568ee88",
+      "id": "prefabs/icebox.lua:baseline:7"
+    }
+  ],
+  "cases": [
+    {
+      "path": "components/finiteuses.lua",
+      "sha256": "db589f3ccc740d002c6106be914a1cde6375056262720359b2becdba25cec4b4",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "symbol:components/finiteuses.lua#module/class:FiniteUses",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#module/class:FiniteUses",
+            "kind": "class",
+            "name": "FiniteUses",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "none",
+            "base_expression": "nil"
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:1"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#FiniteUses/constructor:new",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#FiniteUses/constructor:new",
+            "kind": "constructor",
+            "name": "new",
+            "scope": "FiniteUses",
+            "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "parameters": [
+              {
+                "name": "self",
+                "kind": "named"
+              },
+              {
+                "name": "inst",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:2"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#module/function:onfiniteuses",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#module/function:onfiniteuses",
+            "kind": "function",
+            "name": "onfiniteuses",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "self",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:3"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#FiniteUses/field:total",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#FiniteUses/field:total",
+            "kind": "field",
+            "name": "total",
+            "scope": "FiniteUses",
+            "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "parameters": [],
+            "calling": "none",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:4"
+        },
+        {
+          "id": "total-default",
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "subject_symbol_id": "components/finiteuses.lua#FiniteUses/constructor:new",
+            "data": {
+              "target": "self.total",
+              "expression": "100",
+              "literal_kind": "number"
+            },
+            "guards": []
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:5"
+        },
+        {
+          "id": "total-property",
+          "collection": "records",
+          "match": {
+            "kind": "property_callback",
+            "subject_symbol_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "data": {
+              "field_symbol_id": "components/finiteuses.lua#FiniteUses/field:total",
+              "callback_expression": "onfiniteuses",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "components/finiteuses.lua#module/function:onfiniteuses",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:6"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#FiniteUses/field:current",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#FiniteUses/field:current",
+            "kind": "field",
+            "name": "current",
+            "scope": "FiniteUses",
+            "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "parameters": [],
+            "calling": "none",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:7"
+        },
+        {
+          "id": "current-default",
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "subject_symbol_id": "components/finiteuses.lua#FiniteUses/constructor:new",
+            "data": {
+              "target": "self.current",
+              "expression": "100",
+              "literal_kind": "number"
+            },
+            "guards": []
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:8"
+        },
+        {
+          "id": "current-property",
+          "collection": "records",
+          "match": {
+            "kind": "property_callback",
+            "subject_symbol_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "data": {
+              "field_symbol_id": "components/finiteuses.lua#FiniteUses/field:current",
+              "callback_expression": "onfiniteuses",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "components/finiteuses.lua#module/function:onfiniteuses",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:9"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#FiniteUses/method:SetUses",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+            "kind": "method",
+            "name": "SetUses",
+            "scope": "FiniteUses",
+            "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "parameters": [
+              {
+                "name": "val",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:10"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#FiniteUses/method:Use",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#FiniteUses/method:Use",
+            "kind": "method",
+            "name": "Use",
+            "scope": "FiniteUses",
+            "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "parameters": [
+              {
+                "name": "num",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:11"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#FiniteUses/method:OnSave",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#FiniteUses/method:OnSave",
+            "kind": "method",
+            "name": "OnSave",
+            "scope": "FiniteUses",
+            "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "parameters": [],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:12"
+        },
+        {
+          "id": "symbol:components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+          "collection": "symbols",
+          "match": {
+            "id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+            "kind": "method",
+            "name": "OnUsedAsItem",
+            "scope": "FiniteUses",
+            "owner_id": "components/finiteuses.lua#module/class:FiniteUses",
+            "parameters": [
+              {
+                "name": "action",
+                "kind": "named"
+              },
+              {
+                "name": "doer",
+                "kind": "named"
+              },
+              {
+                "name": "target",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:13"
+        },
+        {
+          "id": "percent-event",
+          "collection": "records",
+          "match": {
+            "kind": "event_emit",
+            "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "\"percentusedchange\"",
+              "literal_name": "percentusedchange",
+              "payload_expression": "{percent = self:GetPercent()}",
+              "callback_expression": null
+            },
+            "guards": []
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:14"
+        },
+        {
+          "id": "use-default-expression",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:Use",
+            "data": {
+              "receiver": "self",
+              "callee": "SetUses",
+              "arguments": [
+                "self.current - (num or 1)"
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "components/finiteuses.lua#FiniteUses/method:SetUses",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:15"
+        },
+        {
+          "id": "save-branch",
+          "collection": "records",
+          "match": {
+            "kind": "return",
+            "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:OnSave",
+            "data": {
+              "expressions": [
+                "{ uses = self.current }"
+              ],
+              "implicit": false
+            },
+            "guards": [
+              {
+                "expression": "self.current ~= self.total or self.doesnotstartfull",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:16"
+        },
+        {
+          "id": "modify-consumption-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "components/finiteuses.lua#FiniteUses/method:OnUsedAsItem",
+            "data": {
+              "receiver": null,
+              "callee": "self.modifyuseconsumption",
+              "arguments": [
+                "uses",
+                "action",
+                "doer",
+                "target",
+                "self.inst"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "uses ~= nil",
+                "branch": "then"
+              },
+              {
+                "expression": "self.modifyuseconsumption",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "components/finiteuses.lua:baseline:17"
+        }
+      ],
+      "forbidden": [],
+      "semantic_reviews": [
+        {
+          "id": "finiteuses-defaults",
+          "state": "source-reviewed",
+          "claim": "构造时 total/current 都赋值 100；Class 将二者绑定 onfiniteuses，属性写入调用回调，repairable/forgerepairable 是条件协作。",
+          "evidence": [
+            {
+              "anchor_id": "components/finiteuses.lua:baseline:18",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "class.lua:baseline:4",
+              "role": "property-mechanism"
+            },
+            {
+              "anchor_id": "class.lua:baseline:5",
+              "role": "property-mechanism"
+            }
+          ],
+          "remaining": "不从默认值推导全部后续赋值类型；修复组件具体实现待 W04。",
+          "runtime_tested": false
+        },
+        {
+          "id": "finiteuses-use-save",
+          "state": "source-reviewed",
+          "claim": "Use 传 num or 1 给 SetUses；OnSave 只在 current 不等于 total 或 doesnotstartfull 时返回 uses 表，其他路径无显式返回。",
+          "evidence": [
+            {
+              "anchor_id": "components/finiteuses.lua:baseline:19",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "components/finiteuses.lua:baseline:20",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "entityscript.lua:baseline:7",
+              "role": "host-dispatch"
+            }
+          ],
+          "remaining": "参数全量类型和游戏保存恢复测试待 W04；结构提取不自行升级为已核验类型。",
+          "runtime_tested": false
+        }
+      ]
+    },
+    {
+      "path": "components/equippable.lua",
+      "sha256": "afa5d4d0c26c216a20834bcd844660fbefc45517360e6150076660556fcdcf52",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "symbol:components/equippable.lua#module/class:Equippable",
+          "collection": "symbols",
+          "match": {
+            "id": "components/equippable.lua#module/class:Equippable",
+            "kind": "class",
+            "name": "Equippable",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "none",
+            "base_expression": "nil"
+          },
+          "anchor_id": "components/equippable.lua:baseline:1"
+        },
+        {
+          "id": "symbol:components/equippable.lua#Equippable/constructor:new",
+          "collection": "symbols",
+          "match": {
+            "id": "components/equippable.lua#Equippable/constructor:new",
+            "kind": "constructor",
+            "name": "new",
+            "scope": "Equippable",
+            "owner_id": "components/equippable.lua#module/class:Equippable",
+            "parameters": [
+              {
+                "name": "self",
+                "kind": "named"
+              },
+              {
+                "name": "inst",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "components/equippable.lua:baseline:2"
+        },
+        {
+          "id": "symbol:components/equippable.lua#module/function:onwalkspeedmult",
+          "collection": "symbols",
+          "match": {
+            "id": "components/equippable.lua#module/function:onwalkspeedmult",
+            "kind": "function",
+            "name": "onwalkspeedmult",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "self",
+                "kind": "named"
+              },
+              {
+                "name": "walkspeedmult",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "components/equippable.lua:baseline:3"
+        },
+        {
+          "id": "symbol:components/equippable.lua#Equippable/field:walkspeedmult",
+          "collection": "symbols",
+          "match": {
+            "id": "components/equippable.lua#Equippable/field:walkspeedmult",
+            "kind": "field",
+            "name": "walkspeedmult",
+            "scope": "Equippable",
+            "owner_id": "components/equippable.lua#module/class:Equippable",
+            "parameters": [],
+            "calling": "none",
+            "base_expression": null
+          },
+          "anchor_id": "components/equippable.lua:baseline:4"
+        },
+        {
+          "id": "symbol:components/equippable.lua#Equippable/method:Equip",
+          "collection": "symbols",
+          "match": {
+            "id": "components/equippable.lua#Equippable/method:Equip",
+            "kind": "method",
+            "name": "Equip",
+            "scope": "Equippable",
+            "owner_id": "components/equippable.lua#module/class:Equippable",
+            "parameters": [
+              {
+                "name": "owner",
+                "kind": "named"
+              },
+              {
+                "name": "from_ground",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/equippable.lua:baseline:5"
+        },
+        {
+          "id": "symbol:components/equippable.lua#Equippable/method:Unequip",
+          "collection": "symbols",
+          "match": {
+            "id": "components/equippable.lua#Equippable/method:Unequip",
+            "kind": "method",
+            "name": "Unequip",
+            "scope": "Equippable",
+            "owner_id": "components/equippable.lua#module/class:Equippable",
+            "parameters": [
+              {
+                "name": "owner",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/equippable.lua:baseline:6"
+        },
+        {
+          "id": "symbol:components/equippable.lua#Equippable/method:SetPreventUnequipping",
+          "collection": "symbols",
+          "match": {
+            "id": "components/equippable.lua#Equippable/method:SetPreventUnequipping",
+            "kind": "method",
+            "name": "SetPreventUnequipping",
+            "scope": "Equippable",
+            "owner_id": "components/equippable.lua#module/class:Equippable",
+            "parameters": [
+              {
+                "name": "shouldprevent",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/equippable.lua:baseline:7"
+        },
+        {
+          "id": "speed-property",
+          "collection": "records",
+          "match": {
+            "kind": "property_callback",
+            "subject_symbol_id": "components/equippable.lua#module/class:Equippable",
+            "data": {
+              "field_symbol_id": "components/equippable.lua#Equippable/field:walkspeedmult",
+              "callback_expression": "onwalkspeedmult",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "components/equippable.lua#module/function:onwalkspeedmult",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "components/equippable.lua:baseline:8"
+        },
+        {
+          "id": "speed-replica-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "components/equippable.lua#module/function:onwalkspeedmult",
+            "data": {
+              "receiver": "self.inst.replica.inventoryitem",
+              "callee": "SetWalkSpeedMult",
+              "arguments": [
+                "walkspeedmult"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "self.inst.replica.inventoryitem ~= nil",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "components/equippable.lua:baseline:9"
+        },
+        {
+          "id": "equip-callback",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "components/equippable.lua#Equippable/method:Equip",
+            "data": {
+              "receiver": null,
+              "callee": "self.onequipfn",
+              "arguments": [
+                "self.inst",
+                "owner",
+                "from_ground"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "self.onequipfn ~= nil",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "components/equippable.lua:baseline:10"
+        },
+        {
+          "id": "item-equipped-event",
+          "collection": "records",
+          "match": {
+            "kind": "event_emit",
+            "subject_symbol_id": "components/equippable.lua#Equippable/method:Equip",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "\"equipped\"",
+              "literal_name": "equipped",
+              "payload_expression": "{ owner = owner }",
+              "callback_expression": null
+            },
+            "guards": []
+          },
+          "anchor_id": "components/equippable.lua:baseline:11"
+        },
+        {
+          "id": "item-unequipped-event",
+          "collection": "records",
+          "match": {
+            "kind": "event_emit",
+            "subject_symbol_id": "components/equippable.lua#Equippable/method:Unequip",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "\"unequipped\"",
+              "literal_name": "unequipped",
+              "payload_expression": "{ owner = owner }",
+              "callback_expression": null
+            },
+            "guards": []
+          },
+          "anchor_id": "components/equippable.lua:baseline:12"
+        },
+        {
+          "id": "remove-listener",
+          "collection": "records",
+          "match": {
+            "kind": "event_listen",
+            "subject_symbol_id": "components/equippable.lua#Equippable/method:SetPreventUnequipping",
+            "data": {
+              "receiver": "self.inst",
+              "name_expression": "\"onremove\"",
+              "literal_name": "onremove",
+              "payload_expression": null,
+              "callback_expression": "OnRemove"
+            },
+            "guards": [
+              {
+                "expression": "shouldprevent",
+                "branch": "then"
+              },
+              {
+                "expression": "not self.preventunequipping",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "components/equippable.lua:baseline:13"
+        }
+      ],
+      "forbidden": [
+        {
+          "collection": "symbols",
+          "match": {
+            "kind": "field",
+            "name": "retrictedtag"
+          }
+        },
+        {
+          "collection": "records",
+          "match": {
+            "kind": "assignment",
+            "data": {
+              "target": "self.retrictedtag"
+            }
+          }
+        }
+      ],
+      "semantic_reviews": [
+        {
+          "id": "equip-receiver",
+          "state": "source-reviewed",
+          "claim": "Equip 的 onequipfn 调用传 self.inst、owner、from_ground；equipped/unequipped 事件由物品 self.inst 发出，payload 含 owner。",
+          "evidence": [
+            {
+              "anchor_id": "components/equippable.lua:baseline:14",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "prefabs/torch.lua:baseline:6",
+              "role": "caller"
+            }
+          ],
+          "remaining": "事件监听路径、回调参数完整类型和游戏运行待 W04。",
+          "runtime_tested": false
+        },
+        {
+          "id": "speed-replica",
+          "state": "source-reviewed",
+          "claim": "walkspeedmult 属性回调仅在 replica.inventoryitem 非空时调用 SetWalkSpeedMult；OnRemoveFromEntity 恢复 replica 设置。",
+          "evidence": [
+            {
+              "anchor_id": "components/equippable.lua:baseline:15",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "components/equippable.lua:baseline:16",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "class.lua:baseline:6",
+              "role": "property-mechanism"
+            },
+            {
+              "anchor_id": "class.lua:baseline:7",
+              "role": "property-mechanism"
+            },
+            {
+              "anchor_id": "entityscript.lua:baseline:8",
+              "role": "host-dispatch"
+            }
+          ],
+          "remaining": "网络编码范围、公共编辑器类型和 LuaLS 检查不在 W02 覆盖内。",
+          "runtime_tested": false
+        }
+      ]
+    },
+    {
+      "path": "components/container.lua",
+      "sha256": "f593c100098c116c00a627dde34a97f76b1ecfa87240d16943e1260411ceb961",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "symbol:components/container.lua#module/class:Container",
+          "collection": "symbols",
+          "match": {
+            "id": "components/container.lua#module/class:Container",
+            "kind": "class",
+            "name": "Container",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "none",
+            "base_expression": "nil"
+          },
+          "anchor_id": "components/container.lua:baseline:1"
+        },
+        {
+          "id": "symbol:components/container.lua#Container/method:Close",
+          "collection": "symbols",
+          "match": {
+            "id": "components/container.lua#Container/method:Close",
+            "kind": "method",
+            "name": "Close",
+            "scope": "Container",
+            "owner_id": "components/container.lua#module/class:Container",
+            "parameters": [
+              {
+                "name": "doer",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/container.lua:baseline:2"
+        },
+        {
+          "id": "symbol:components/container.lua#Container/method:OnRemoveEntity",
+          "collection": "symbols",
+          "match": {
+            "id": "components/container.lua#Container/method:OnRemoveEntity",
+            "kind": "method",
+            "name": "OnRemoveEntity",
+            "scope": "Container",
+            "owner_id": "components/container.lua#module/class:Container",
+            "parameters": [
+              {
+                "name": "doer",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/container.lua:baseline:3"
+        },
+        {
+          "id": "OnRemoveEntity-alias",
+          "collection": "records",
+          "match": {
+            "kind": "method_alias",
+            "subject_symbol_id": "components/container.lua#module/class:Container",
+            "data": {
+              "target_symbol_id": "components/container.lua#Container/method:OnRemoveEntity",
+              "expression": "Container.Close",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "components/container.lua#Container/method:Close",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "components/container.lua:baseline:4"
+        },
+        {
+          "id": "symbol:components/container.lua#Container/method:OnRemoveFromEntity",
+          "collection": "symbols",
+          "match": {
+            "id": "components/container.lua#Container/method:OnRemoveFromEntity",
+            "kind": "method",
+            "name": "OnRemoveFromEntity",
+            "scope": "Container",
+            "owner_id": "components/container.lua#module/class:Container",
+            "parameters": [
+              {
+                "name": "doer",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon",
+            "base_expression": null
+          },
+          "anchor_id": "components/container.lua:baseline:5"
+        },
+        {
+          "id": "OnRemoveFromEntity-alias",
+          "collection": "records",
+          "match": {
+            "kind": "method_alias",
+            "subject_symbol_id": "components/container.lua#module/class:Container",
+            "data": {
+              "target_symbol_id": "components/container.lua#Container/method:OnRemoveFromEntity",
+              "expression": "Container.Close",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "components/container.lua#Container/method:Close",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "components/container.lua:baseline:6"
+        }
+      ],
+      "forbidden": [],
+      "semantic_reviews": [
+        {
+          "id": "lifecycle-alias-host",
+          "state": "source-reviewed",
+          "claim": "OnRemoveEntity 与 OnRemoveFromEntity 均赋值为 Container.Close；宿主分别在实体移除循环和 RemoveComponent 中按可选钩子分派，不能合并触发时机。",
+          "evidence": [
+            {
+              "anchor_id": "components/container.lua:baseline:7",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "components/container.lua:baseline:8",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "entityscript.lua:baseline:9",
+              "role": "host-dispatch"
+            },
+            {
+              "anchor_id": "entityscript.lua:baseline:10",
+              "role": "host-dispatch"
+            }
+          ],
+          "remaining": "只核验别名与宿主触发，不承诺整个 container 语义或完整清理测试。",
+          "runtime_tested": false
+        }
+      ]
+    },
+    {
+      "path": "class.lua",
+      "sha256": "eff1a5280260c73c9fc4c8bdff95ae31a35c80f62764749722bfc123f8694454",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "symbol:class.lua#module/function:Class",
+          "collection": "symbols",
+          "match": {
+            "id": "class.lua#module/function:Class",
+            "kind": "function",
+            "name": "Class",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "base",
+                "kind": "named"
+              },
+              {
+                "name": "_ctor",
+                "kind": "named"
+              },
+              {
+                "name": "props",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "class.lua:baseline:1"
+        },
+        {
+          "id": "symbol:class.lua#module/function:__newindex",
+          "collection": "symbols",
+          "match": {
+            "id": "class.lua#module/function:__newindex",
+            "kind": "function",
+            "name": "__newindex",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "t",
+                "kind": "named"
+              },
+              {
+                "name": "k",
+                "kind": "named"
+              },
+              {
+                "name": "v",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "class.lua:baseline:2"
+        },
+        {
+          "id": "property-callback-arguments",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "class.lua#module/function:__newindex",
+            "data": {
+              "receiver": null,
+              "callee": "p[2]",
+              "arguments": [
+                "t",
+                "v",
+                "old"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "p == nil",
+                "branch": "else"
+              }
+            ]
+          },
+          "anchor_id": "class.lua:baseline:3"
+        }
+      ],
+      "forbidden": [],
+      "semantic_reviews": []
+    },
+    {
+      "path": "entityscript.lua",
+      "sha256": "df52c6816fce28d22ed6fe5004575044da8fcf84a8a834ec14ef92aca3fe7501",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "host-method-RemoveComponent",
+          "collection": "symbols",
+          "match": {
+            "id": "entityscript.lua#EntityScript/method:RemoveComponent",
+            "kind": "method",
+            "name": "RemoveComponent",
+            "parameters": [
+              {
+                "name": "name",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon"
+          },
+          "anchor_id": "entityscript.lua:baseline:1"
+        },
+        {
+          "id": "host-method-Remove",
+          "collection": "symbols",
+          "match": {
+            "id": "entityscript.lua#EntityScript/method:Remove",
+            "kind": "method",
+            "name": "Remove",
+            "parameters": [],
+            "calling": "colon"
+          },
+          "anchor_id": "entityscript.lua:baseline:2"
+        },
+        {
+          "id": "host-method-GetPersistData",
+          "collection": "symbols",
+          "match": {
+            "id": "entityscript.lua#EntityScript/method:GetPersistData",
+            "kind": "method",
+            "name": "GetPersistData",
+            "parameters": [],
+            "calling": "colon"
+          },
+          "anchor_id": "entityscript.lua:baseline:3"
+        },
+        {
+          "id": "host-method-SetPersistData",
+          "collection": "symbols",
+          "match": {
+            "id": "entityscript.lua#EntityScript/method:SetPersistData",
+            "kind": "method",
+            "name": "SetPersistData",
+            "parameters": [
+              {
+                "name": "data",
+                "kind": "named"
+              },
+              {
+                "name": "newents",
+                "kind": "named"
+              }
+            ],
+            "calling": "colon"
+          },
+          "anchor_id": "entityscript.lua:baseline:4"
+        },
+        {
+          "id": "component-remove-dispatch",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "entityscript.lua#EntityScript/method:RemoveComponent",
+            "data": {
+              "receiver": "cmp",
+              "callee": "OnRemoveFromEntity",
+              "arguments": [],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "cmp",
+                "branch": "then"
+              },
+              {
+                "expression": "cmp.OnRemoveFromEntity",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "entityscript.lua:baseline:5"
+        },
+        {
+          "id": "save-dispatch",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "entityscript.lua#EntityScript/method:GetPersistData",
+            "data": {
+              "receiver": "v",
+              "callee": "OnSave",
+              "arguments": [],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "pairs(self.components)",
+                "branch": "loop"
+              },
+              {
+                "expression": "v.OnSave",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "entityscript.lua:baseline:6"
+        }
+      ],
+      "forbidden": [],
+      "semantic_reviews": []
+    },
+    {
+      "path": "prefabs/axe.lua",
+      "sha256": "aaaad3f106b9b6aa9ed1ee30a3e3aeca2cd68d7fc45c6df04aad80bc4725c22c",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "symbol:prefabs/axe.lua#module/function:MakeAxe",
+          "collection": "symbols",
+          "match": {
+            "id": "prefabs/axe.lua#module/function:MakeAxe",
+            "kind": "function",
+            "name": "MakeAxe",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [
+              {
+                "name": "name",
+                "kind": "named"
+              },
+              {
+                "name": "common_postinit",
+                "kind": "named"
+              },
+              {
+                "name": "master_postinit",
+                "kind": "named"
+              },
+              {
+                "name": "data",
+                "kind": "named"
+              },
+              {
+                "name": "_assets",
+                "kind": "named"
+              },
+              {
+                "name": "_prefabs",
+                "kind": "named"
+              }
+            ],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:1"
+        },
+        {
+          "id": "symbol:prefabs/axe.lua#module/MakeAxe/function:fn",
+          "collection": "symbols",
+          "match": {
+            "id": "prefabs/axe.lua#module/MakeAxe/function:fn",
+            "kind": "function",
+            "name": "fn",
+            "scope": "module/MakeAxe",
+            "owner_id": "prefabs/axe.lua#module/function:MakeAxe",
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:2"
+        },
+        {
+          "id": "symbol:prefabs/axe.lua#module/function:<chunk>",
+          "collection": "symbols",
+          "match": {
+            "id": "prefabs/axe.lua#module/function:<chunk>",
+            "kind": "function",
+            "name": "<chunk>",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:3"
+        },
+        {
+          "id": "conditional-finiteuses",
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "subject_symbol_id": "prefabs/axe.lua#module/MakeAxe/function:fn",
+            "data": {
+              "receiver": "inst",
+              "name_expression": "\"finiteuses\"",
+              "literal_name": "finiteuses",
+              "operation": "add"
+            },
+            "guards": [
+              {
+                "expression": "not TheWorld.ismastersim",
+                "branch": "after-return"
+              },
+              {
+                "expression": "TheNet:GetServerGameMode() ~= \"quagmire\"",
+                "branch": "then"
+              },
+              {
+                "expression": "not nofiniteuses",
+                "branch": "then"
+              }
+            ]
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:4"
+        },
+        {
+          "id": "factory-registration",
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "subject_symbol_id": "prefabs/axe.lua#module/function:MakeAxe",
+            "data": {
+              "name_expression": "name",
+              "literal_name": null,
+              "factory_expression": "fn",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "prefabs/axe.lua#module/MakeAxe/function:fn",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:5"
+        },
+        {
+          "id": "factory-call-axe",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "prefabs/axe.lua#module/function:<chunk>",
+            "data": {
+              "receiver": null,
+              "callee": "MakeAxe",
+              "arguments": [
+                "\"axe\"",
+                "nil",
+                "nil",
+                "nil",
+                "assets"
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "prefabs/axe.lua#module/function:MakeAxe",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:6"
+        },
+        {
+          "id": "factory-call-goldenaxe",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "prefabs/axe.lua#module/function:<chunk>",
+            "data": {
+              "receiver": null,
+              "callee": "MakeAxe",
+              "arguments": [
+                "\"goldenaxe\"",
+                "nil",
+                "gold_master_postinit",
+                "GOLD_DATA",
+                "golden_assets"
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "prefabs/axe.lua#module/function:MakeAxe",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:7"
+        },
+        {
+          "id": "factory-call-moonglassaxe",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "prefabs/axe.lua#module/function:<chunk>",
+            "data": {
+              "receiver": null,
+              "callee": "MakeAxe",
+              "arguments": [
+                "\"moonglassaxe\"",
+                "nil",
+                "glass_master_postinit",
+                "GLASS_DATA",
+                "moonglass_assets"
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "prefabs/axe.lua#module/function:MakeAxe",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:8"
+        },
+        {
+          "id": "factory-call-fumaroleaxe",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "prefabs/axe.lua#module/function:<chunk>",
+            "data": {
+              "receiver": null,
+              "callee": "MakeAxe",
+              "arguments": [
+                "\"fumaroleaxe\"",
+                "fumarole_common_postinit",
+                "fumarole_master_postinit",
+                "FUMAROLE_DATA",
+                "fumarole_assets"
+              ],
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "prefabs/axe.lua#module/function:MakeAxe",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/axe.lua:baseline:9"
+        }
+      ],
+      "forbidden": [
+        {
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "data": {
+              "literal_name": "axe"
+            }
+          }
+        }
+      ],
+      "semantic_reviews": [
+        {
+          "id": "multiple-registrations",
+          "state": "source-reviewed",
+          "claim": "文件返回四次 MakeAxe 调用；该工厂返回 Prefab(name, fn, ...)，fn 内 finiteuses 挂载受服务器、quagmire 模式和 nofiniteuses 条件限制。",
+          "evidence": [
+            {
+              "anchor_id": "prefabs/axe.lua:baseline:10",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "prefabs/axe.lua:baseline:11",
+              "role": "implementation"
+            },
+            {
+              "anchor_id": "prefabs/axe.lua:baseline:12",
+              "role": "caller"
+            }
+          ],
+          "remaining": "词法提取保留 name 未解析及四个工厂调用；四项配置的跨函数传播需单独核验，不能凭文件名猜所有变体组件。",
+          "runtime_tested": false
+        }
+      ]
+    },
+    {
+      "path": "prefabs/torch.lua",
+      "sha256": "e20aed0ba714e59c5edbe0c69547674a02eaee0c4c4f3cd5c93af2b7bfe2452e",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "symbol:prefabs/torch.lua#module/function:fn",
+          "collection": "symbols",
+          "match": {
+            "id": "prefabs/torch.lua#module/function:fn",
+            "kind": "function",
+            "name": "fn",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "prefabs/torch.lua:baseline:1"
+        },
+        {
+          "id": "symbol:prefabs/torch.lua#module/function:<chunk>",
+          "collection": "symbols",
+          "match": {
+            "id": "prefabs/torch.lua#module/function:<chunk>",
+            "kind": "function",
+            "name": "<chunk>",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "prefabs/torch.lua:baseline:2"
+        },
+        {
+          "id": "equip-add",
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "subject_symbol_id": "prefabs/torch.lua#module/function:fn",
+            "data": {
+              "receiver": "inst",
+              "name_expression": "\"equippable\"",
+              "literal_name": "equippable",
+              "operation": "add"
+            },
+            "guards": [
+              {
+                "expression": "not TheWorld.ismastersim",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "prefabs/torch.lua:baseline:3"
+        },
+        {
+          "id": "equip-bind",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "prefabs/torch.lua#module/function:fn",
+            "data": {
+              "receiver": "inst.components.equippable",
+              "callee": "SetOnEquip",
+              "arguments": [
+                "onequip"
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "not TheWorld.ismastersim",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "prefabs/torch.lua:baseline:4"
+        },
+        {
+          "id": "torch-registration",
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "subject_symbol_id": "prefabs/torch.lua#module/function:<chunk>",
+            "data": {
+              "name_expression": "\"torch\"",
+              "literal_name": "torch",
+              "factory_expression": "fn",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "prefabs/torch.lua#module/function:fn",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/torch.lua:baseline:5"
+        }
+      ],
+      "forbidden": [],
+      "semantic_reviews": []
+    },
+    {
+      "path": "prefabs/icebox.lua",
+      "sha256": "6d27ce9feb801509f1947abf073ec62a382131f68f64a37d9284965ab6ae4dbc",
+      "expected_status": "partial-or-complete",
+      "checks": [
+        {
+          "id": "symbol:prefabs/icebox.lua#module/function:fn",
+          "collection": "symbols",
+          "match": {
+            "id": "prefabs/icebox.lua#module/function:fn",
+            "kind": "function",
+            "name": "fn",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "prefabs/icebox.lua:baseline:1"
+        },
+        {
+          "id": "symbol:prefabs/icebox.lua#module/function:<chunk>",
+          "collection": "symbols",
+          "match": {
+            "id": "prefabs/icebox.lua#module/function:<chunk>",
+            "kind": "function",
+            "name": "<chunk>",
+            "scope": "module",
+            "owner_id": null,
+            "parameters": [],
+            "calling": "plain",
+            "base_expression": null
+          },
+          "anchor_id": "prefabs/icebox.lua:baseline:2"
+        },
+        {
+          "id": "container-add",
+          "collection": "records",
+          "match": {
+            "kind": "component_access",
+            "subject_symbol_id": "prefabs/icebox.lua#module/function:fn",
+            "data": {
+              "receiver": "inst",
+              "name_expression": "\"container\"",
+              "literal_name": "container",
+              "operation": "add"
+            },
+            "guards": [
+              {
+                "expression": "not TheWorld.ismastersim",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "prefabs/icebox.lua:baseline:3"
+        },
+        {
+          "id": "container-widget",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "prefabs/icebox.lua#module/function:fn",
+            "data": {
+              "receiver": "inst.components.container",
+              "callee": "WidgetSetup",
+              "arguments": [
+                "\"icebox\""
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": [
+              {
+                "expression": "not TheWorld.ismastersim",
+                "branch": "after-return"
+              }
+            ]
+          },
+          "anchor_id": "prefabs/icebox.lua:baseline:4"
+        },
+        {
+          "id": "icebox-registration",
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "subject_symbol_id": "prefabs/icebox.lua#module/function:<chunk>",
+            "data": {
+              "name_expression": "\"icebox\"",
+              "literal_name": "icebox",
+              "factory_expression": "fn",
+              "resolution": {
+                "state": "resolved",
+                "symbol_id": "prefabs/icebox.lua#module/function:fn",
+                "candidates": [],
+                "reason": null
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/icebox.lua:baseline:5"
+        },
+        {
+          "id": "placer-is-a-call",
+          "collection": "records",
+          "match": {
+            "kind": "call",
+            "subject_symbol_id": "prefabs/icebox.lua#module/function:<chunk>",
+            "data": {
+              "receiver": null,
+              "callee": "MakePlacer",
+              "arguments": [
+                "\"icebox_placer\"",
+                "\"icebox\"",
+                "\"ice_box\"",
+                "\"closed\""
+              ],
+              "resolution": {
+                "state": "unresolved",
+                "symbol_id": null,
+                "candidates": []
+              }
+            },
+            "guards": []
+          },
+          "anchor_id": "prefabs/icebox.lua:baseline:6"
+        }
+      ],
+      "forbidden": [
+        {
+          "collection": "records",
+          "match": {
+            "kind": "prefab_registration",
+            "data": {
+              "literal_name": "icebox_placer"
+            }
+          }
+        }
+      ],
+      "semantic_reviews": [
+        {
+          "id": "prefab-and-placer",
+          "state": "source-reviewed",
+          "claim": "icebox 直接 Prefab 注册，icebox_placer 来自 MakePlacer 调用；fn 的 container 挂载在客户端早退之后。",
+          "evidence": [
+            {
+              "anchor_id": "prefabs/icebox.lua:baseline:7",
+              "role": "implementation"
+            }
+          ],
+          "remaining": "MakePlacer 的具体定义未在此核验，语法观察保持 call，不自动升级 prefab_registration。",
+          "runtime_tested": false
+        }
+      ]
+    }
+  ]
+}
